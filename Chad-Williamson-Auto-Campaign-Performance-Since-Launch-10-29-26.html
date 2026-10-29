@@ -240,6 +240,78 @@ body{margin:0;}
 :root[data-theme="dark"] .theme-toggle:hover{color:#339fff;border-color:#64748b;}
 :root[data-theme="dark"] .theme-toggle .i-sun{display:block;} :root[data-theme="dark"] .theme-toggle .i-moon{display:none;}
 @media print{ .theme-toggle{display:none !important;} }
+/* Where Quotes and Sales Came From (aid_section.py) */
+.atable{min-width:0;}
+.atable.wide{min-width:640px;}
+.atable th.r,.atable td.r{padding-right:20px;}
+.atable th.r:last-child,.atable td.r:last-child{padding-right:4px;}
+.atable td{padding:13px 0;}
+.atable .big{font-size:17px;}
+.atable td .sub.ts{max-width:300px;margin:4px 0 0 18px;}
+.atable td.r .sub.pk{max-width:none;font-size:12px;white-space:nowrap;}
+@media (max-width:560px){
+  .atable th{font-size:10px;letter-spacing:.04em;}
+  .atable th.r,.atable td.r{padding-right:7px;}
+  .atable td.r .sub.pk{font-size:11px;}
+  .atable .nm{gap:6px;}
+  .atable .big{font-size:15px;}
+  .atable .nm{font-size:13px;}
+  .atable .cc{font-size:14px;}
+  .atable td .sub.ts{margin-left:0;}
+  .atable td .nm .bd{display:none;}
+}
+.atable tr.tot td{border-top:1px solid var(--border-strong);border-bottom:none;}
+.atable tr.muted .nm,.atable tr.muted .big{color:var(--ink-muted);}
+.atable .aidn{font-variant-numeric:tabular-nums;white-space:nowrap;}
+.atable .cc{font-size:15px;font-weight:600;color:var(--ink-soft);font-variant-numeric:tabular-nums;}
+.anote{font-size:13px;color:var(--ink-muted);line-height:1.6;margin-top:16px;}
+.anote b{color:var(--ink);font-weight:600;}
+.astack{display:grid;gap:16px;}
+
+/* month table and related reports */
+.mtable{min-width:560px;}
+.atable th:first-child{padding-right:10px;}
+.mtable td{padding:12px 0;}
+.mtable .big{font-size:16px;}
+.mtable td.na .cc{color:var(--ink-muted);}
+.rel .pstep .h a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--brand-border);}
+.rel .pstep .h a:hover{color:var(--brand-text);}
+
+.atable{min-width:0;}
+.atable.wide{min-width:640px;}
+.atable th.r,.atable td.r{padding-right:20px;}
+.atable th.r:last-child,.atable td.r:last-child{padding-right:4px;}
+.atable td{padding:13px 0;}
+.atable .big{font-size:17px;}
+.atable td .sub.ts{max-width:300px;margin:4px 0 0 18px;}
+.atable td.r .sub.pk{max-width:none;font-size:12px;white-space:nowrap;}
+@media (max-width:560px){
+  .atable th{font-size:10px;letter-spacing:.04em;}
+  .atable th.r,.atable td.r{padding-right:7px;}
+  .atable td.r .sub.pk{font-size:11px;}
+  .atable .nm{gap:6px;}
+  .atable .big{font-size:15px;}
+  .atable .nm{font-size:13px;}
+  .atable .cc{font-size:14px;}
+  .atable td .sub.ts{margin-left:0;}
+  .atable td .nm .bd{display:none;}
+}
+.atable tr.tot td{border-top:1px solid var(--border-strong);border-bottom:none;}
+.atable tr.muted .nm,.atable tr.muted .big{color:var(--ink-muted);}
+.atable .aidn{font-variant-numeric:tabular-nums;white-space:nowrap;}
+.atable .cc{font-size:15px;font-weight:600;color:var(--ink-soft);font-variant-numeric:tabular-nums;}
+.anote{font-size:13px;color:var(--ink-muted);line-height:1.6;margin-top:16px;}
+.anote b{color:var(--ink);font-weight:600;}
+.astack{display:grid;gap:16px;}
+
+/* Chad Williamson additions: call-outs and the recommendation box */
+.gapcall{border:1px solid var(--brand-border);border-radius:12px;padding:16px 20px;margin-top:16px;background:linear-gradient(var(--brand-tint),var(--brand-tint)),var(--surface);font-size:14px;line-height:1.6;color:var(--ink);}
+.gapcall b{color:var(--brand-text);} .gapcall p{margin:0 0 8px;} .gapcall p:last-child{margin-bottom:0;}
+.askbox{border:2px solid var(--brand);border-radius:14px;padding:18px 22px;margin-top:16px;background:var(--surface);font-size:14px;line-height:1.6;color:var(--ink);}
+.askbox .ah{font-family:"Sora",system-ui,sans-serif;font-weight:700;font-size:15px;color:var(--brand-text);margin-bottom:8px;letter-spacing:.01em;}
+.askbox p{margin:0 0 8px;} .askbox ul{margin:0 0 10px;padding-left:20px;} .askbox li{margin:0 0 6px;}
+.askbox .am{font-size:13px;color:var(--ink-muted);margin:0;} .askbox b{color:var(--ink);}
+.wtable td{padding:10px 0;}
 </style>
 </head>
 <body>
@@ -253,12 +325,12 @@ body{margin:0;}
     <div class="eb">Performance Review</div>
     <div class="rule"></div>
     <h1>Chad Williamson Insurance Agency</h1>
-    <div class="who">Prepared for <b>Chad</b><br>Plano, TX<br>Auto &middot; Since launch, Sep 16 through Oct 15, 2026</div>
+    <div class="who">Prepared for <b>Chad</b><br>Plano, TX<br>Auto &middot; Since launch, Sep 16 through Oct 28, 2026</div>
     <nav aria-label="Report sections">
       <a href="#s1"><span class="ix">01</span>Key Metrics</a>
       <a href="#s2"><span class="ix">02</span>Performance by Source</a>
       <a href="#s3"><span class="ix">03</span>Conversion Funnel</a>
-      <a href="#s4"><span class="ix">04</span>Lead Geography</a>
+      <a href="#s4"><span class="ix">04</span>Where Quotes Came From</a>
       <a href="#s5"><span class="ix">05</span>Recommendations</a>
     </nav>
     <div class="foot">GOAL Performance Marketing<br>All conversion metrics calculated based on Leads, not Clicks.</div>
@@ -267,51 +339,53 @@ body{margin:0;}
   <main class="main">
 
     <div class="strip">
-      <div class="f"><span class="l">Reporting period</span><span class="v">Since launch, Sep 16 through Oct 15, 2026</span></div>
+      <div class="f"><span class="l">Reporting period</span><span class="v">Since launch, Sep 16 through Oct 28, 2026</span></div>
       <div class="f"><span class="l">Lines</span><span class="v">Auto</span></div>
       <div class="f"><span class="l">Lead source</span><span class="v">GOAL branded campaigns</span></div>
       <span class="badge">Auto</span>
     </div>
 
     <section class="block" id="s1">
-      <div class="bhead"><span class="ix">01</span><div><h2>Key Metrics</h2><p>Since launch, Sep 16 through Oct 15, 2026</p></div></div>
+      <div class="bhead"><span class="ix">01</span><div><h2>Key Metrics</h2><p>Since launch, Sep 16 through Oct 28, 2026</p></div></div>
       <div class="kgrid">
-        <div class="kc"><div class="v">180</div><div class="k">Leads</div><div class="d">Auto</div></div>
-        <div class="kc"><div class="v">12</div><div class="k">Inbound Calls</div><div class="d">Direct from prospects</div></div>
-        <div class="kc"><div class="v">$3,153</div><div class="k">Spend</div><div class="d">227 clicks &middot; 723 impressions</div></div>
-        <div class="kc"><div class="v">1.1%</div><div class="k">Quote Rate</div><div class="d">2 recorded so far; 7 callers quoted on inbound calls alone</div></div>
-        <div class="kc hl"><div class="v">&ndash;</div><div class="k">CPA</div><div class="d">Cost per sale &middot; no sales recorded yet</div></div>
-        <div class="kc"><div class="v">&ndash;</div><div class="k">Policies Sold</div><div class="d">No sales recorded yet</div></div>
+        <div class="kc"><div class="v">223</div><div class="k">Leads</div><div class="d">Auto &middot; $4,132 spend &middot; 76.9% of clicks</div></div>
+        <div class="kc"><div class="v">6.3%</div><div class="k">Quote Rate</div><div class="d">14 of 223 leads quoted &middot; from your status files</div></div>
+        <div class="kc hl"><div class="v">$295</div><div class="k">Cost per Quote</div><div class="d">$4,132.49 &divide; 14 quotes &middot; no sales reported yet</div></div>
+        <div class="kc"><div class="v">9</div><div class="k">X-Dates</div><div class="d">Renewal dates to follow up &middot; 31 leads contacted in all</div></div>
+        <div class="kc"><div class="v">0</div><div class="k">Policies Sold</div><div class="d">No sales reported yet &middot; see the box below</div></div>
+        <div class="kc"><div class="v">15</div><div class="k">Inbound Calls</div><div class="d">Direct from prospects &middot; 14 callers</div></div>
       </div>
+<div class="askbox"><div class="ah">What we need from you</div><p>The latest status file is from <b>Oct 15</b>, and neither file has a producer column, so sales and results by producer cannot be shown yet.</p><ul><li><b>Send a fresh export</b> from your agency system covering every lead since Sep 16, with <b>Sold</b>, <b>Premium</b> and <b>Assigned To</b> (producer) on each lead.</li><li><b>Record Quoted and Sold in GOAL</b> on each lead as it happens, so quotes and sales show up between exports.</li></ul><p class="am">No sales have been reported yet. The Sep 23 status file listed 5 sold rows, but none of them matches a lead GOAL delivered, and GOAL's Sold event has not recorded a sale. One Oct 13 Auto lead has the status Sold - Multi Policy in GOAL, while the Oct 15 file lists it as Quoted; it is not counted as a sale until a status file confirms it.</p></div>
+      <div class="gapcall"><p><b>How to read this report.</b> Quotes, X-dates and contacts come from your two status files (Sep 23 and Oct 15), which list 148 of the 224 leads that arrived before Oct 15. GOAL's Quoted, X-Date and Contacted events show the same counts. The 73 leads since Oct 15 have no status yet. With no sales reported yet, cost per quote is the headline here in place of CPA. It uses all spend since launch, including leads that arrived after the Oct 15 status file.</p><p>Results by producer cannot be shown on these pages: neither status file had an Assigned To or producer column.</p></div>
     </section>
 
     <section class="block" id="s2">
-      <div class="bhead"><span class="ix">02</span><div><h2>Performance by Source</h2><p>Since launch, Sep 16 through Oct 15, 2026</p></div></div>
+      <div class="bhead"><span class="ix">02</span><div><h2>Performance by Source</h2><p>Since launch, Sep 16 through Oct 28, 2026</p></div></div>
       <div class="split">
         <div class="panel">
           <div class="pt">Lead Mix</div>
           <div class="donut-wrap">
             <div class="donut">
-              <svg viewBox="0 0 42 42" width="180" height="180" role="img" aria-label="Lead mix: Premium Referral 55, Native/Display/Social 2 28, Internal SEO 27, Paid Search 23, Internal SEO 2 17, Email 17, Other 13">
+              <svg viewBox="0 0 42 42" width="180" height="180" role="img" aria-label="Lead mix: Premium Referral 75, Native/Display/Social 2 34, Internal SEO 31, Paid Search 26, Internal SEO 2 21, Email 18, Other 18">
                 <circle class="track" cx="21" cy="21" r="15.915" fill="none" stroke-width="6"></circle>
-                <circle class="seg" cx="21" cy="21" r="15.915" fill="none" stroke="var(--s1)" stroke-width="6" stroke-dasharray="0 100" data-dash="30.6" transform="rotate(-90 21 21)"></circle>
-                <circle class="seg" cx="21" cy="21" r="15.915" fill="none" stroke="var(--s2)" stroke-width="6" stroke-dasharray="0 100" data-dash="15.6" data-offset="30.6" transform="rotate(-90 21 21)"></circle>
-                <circle class="seg" cx="21" cy="21" r="15.915" fill="none" stroke="var(--s3)" stroke-width="6" stroke-dasharray="0 100" data-dash="15.0" data-offset="46.2" transform="rotate(-90 21 21)"></circle>
-                <circle class="seg" cx="21" cy="21" r="15.915" fill="none" stroke="var(--s4)" stroke-width="6" stroke-dasharray="0 100" data-dash="12.8" data-offset="61.2" transform="rotate(-90 21 21)"></circle>
-                <circle class="seg" cx="21" cy="21" r="15.915" fill="none" stroke="var(--s5)" stroke-width="6" stroke-dasharray="0 100" data-dash="9.4" data-offset="74.0" transform="rotate(-90 21 21)"></circle>
-                <circle class="seg" cx="21" cy="21" r="15.915" fill="none" stroke="var(--s6)" stroke-width="6" stroke-dasharray="0 100" data-dash="9.4" data-offset="83.4" transform="rotate(-90 21 21)"></circle>
-                <circle class="seg" cx="21" cy="21" r="15.915" fill="none" stroke="var(--s7)" stroke-width="6" stroke-dasharray="0 100" data-dash="7.2" data-offset="92.8" transform="rotate(-90 21 21)"></circle>
+                <circle class="seg" cx="21" cy="21" r="15.915" fill="none" stroke="var(--s1)" stroke-width="6" stroke-dasharray="0 100" data-dash="33.6" transform="rotate(-90 21 21)"></circle>
+                <circle class="seg" cx="21" cy="21" r="15.915" fill="none" stroke="var(--s2)" stroke-width="6" stroke-dasharray="0 100" data-dash="15.2" data-offset="33.6" transform="rotate(-90 21 21)"></circle>
+                <circle class="seg" cx="21" cy="21" r="15.915" fill="none" stroke="var(--s3)" stroke-width="6" stroke-dasharray="0 100" data-dash="13.9" data-offset="48.8" transform="rotate(-90 21 21)"></circle>
+                <circle class="seg" cx="21" cy="21" r="15.915" fill="none" stroke="var(--s4)" stroke-width="6" stroke-dasharray="0 100" data-dash="11.7" data-offset="62.7" transform="rotate(-90 21 21)"></circle>
+                <circle class="seg" cx="21" cy="21" r="15.915" fill="none" stroke="var(--s5)" stroke-width="6" stroke-dasharray="0 100" data-dash="9.4" data-offset="74.4" transform="rotate(-90 21 21)"></circle>
+                <circle class="seg" cx="21" cy="21" r="15.915" fill="none" stroke="var(--s6)" stroke-width="6" stroke-dasharray="0 100" data-dash="8.1" data-offset="83.8" transform="rotate(-90 21 21)"></circle>
+                <circle class="seg" cx="21" cy="21" r="15.915" fill="none" stroke="var(--s7)" stroke-width="6" stroke-dasharray="0 100" data-dash="8.1" data-offset="91.9" transform="rotate(-90 21 21)"></circle>
               </svg>
-              <div class="center"><div class="n">180</div><div class="l">leads</div></div>
+              <div class="center"><div class="n">223</div><div class="l">leads</div></div>
             </div>
             <div class="legend">
-              <div class="li"><span class="sw" style="background:var(--s1)"></span><span class="nm">Premium Referral</span><span class="vl">55</span></div>
-              <div class="li"><span class="sw" style="background:var(--s2)"></span><span class="nm">Native/Display/Social 2</span><span class="vl">28</span></div>
-              <div class="li"><span class="sw" style="background:var(--s3)"></span><span class="nm">Internal SEO</span><span class="vl">27</span></div>
-              <div class="li"><span class="sw" style="background:var(--s4)"></span><span class="nm">Paid Search</span><span class="vl">23</span></div>
-              <div class="li"><span class="sw" style="background:var(--s5)"></span><span class="nm">Internal SEO 2</span><span class="vl">17</span></div>
-              <div class="li"><span class="sw" style="background:var(--s6)"></span><span class="nm">Email</span><span class="vl">17</span></div>
-              <div class="li"><span class="sw" style="background:var(--s7)"></span><span class="nm">Other</span><span class="vl">13</span></div>
+              <div class="li"><span class="sw" style="background:var(--s1)"></span><span class="nm">Premium Referral</span><span class="vl">75</span></div>
+              <div class="li"><span class="sw" style="background:var(--s2)"></span><span class="nm">Native/Display/Social 2</span><span class="vl">34</span></div>
+              <div class="li"><span class="sw" style="background:var(--s3)"></span><span class="nm">Internal SEO</span><span class="vl">31</span></div>
+              <div class="li"><span class="sw" style="background:var(--s4)"></span><span class="nm">Paid Search</span><span class="vl">26</span></div>
+              <div class="li"><span class="sw" style="background:var(--s5)"></span><span class="nm">Internal SEO 2</span><span class="vl">21</span></div>
+              <div class="li"><span class="sw" style="background:var(--s6)"></span><span class="nm">Email</span><span class="vl">18</span></div>
+              <div class="li"><span class="sw" style="background:var(--s7)"></span><span class="nm">Other</span><span class="vl">18</span></div>
             </div>
           </div>
         </div>
@@ -320,179 +394,291 @@ body{margin:0;}
             <thead><tr><th>Source</th><th class="r">Leads</th><th class="r">Calls</th><th>Notes</th></tr></thead>
             <tbody>
               <tr>
-                <td><div class="nm"><span class="bd" style="background:var(--s1)"></span>Premium Referral</div><span class="tag blue">Primary</span></td>
-                <td class="r"><span class="big">55</span></td>
+                <td><div class="nm"><span class="bd" style="background:var(--s1)"></span>Premium Referral</div><span class="tag blue">Most leads</span></td>
+                <td class="r"><span class="big">75</span></td>
                 <td class="r"><span class="big">6</span></td>
-                <td><div class="sub">31% of leads on 32% of spend ($1,002). 69 clicks from 345 impressions; 79.7% of clicks became leads. 2 quotes recorded.</div></td>
+                <td><div class="sub">34% of leads, $1,494 spend. 5 quoted, 5 X-dated, 11 contacted. Leads by month: Sep 52, Oct 23.</div></td>
               </tr>
               <tr>
                 <td><div class="nm"><span class="bd" style="background:var(--s2)"></span>Native/Display/Social 2</div></td>
-                <td class="r"><span class="big">28</span></td>
+                <td class="r"><span class="big">34</span></td>
                 <td class="r"><span class="big">1</span></td>
-                <td><div class="sub">16% of leads on 11% of spend ($356). 35 clicks from 97 impressions; 80.0% of clicks became leads.</div></td>
+                <td><div class="sub">15% of leads, $455 spend. 1 quoted, 0 X-dated, 2 contacted. Leads by month: Sep 7, Oct 27.</div></td>
               </tr>
               <tr>
                 <td><div class="nm"><span class="bd" style="background:var(--s3)"></span>Internal SEO</div></td>
-                <td class="r"><span class="big">27</span></td>
+                <td class="r"><span class="big">31</span></td>
                 <td class="r"><span class="big">2</span></td>
-                <td><div class="sub">15% of leads on 27% of spend ($857). 35 clicks from 81 impressions; 77.1% of clicks became leads.</div></td>
+                <td><div class="sub">14% of leads, $959 spend. 3 quoted, 3 X-dated, 9 contacted. Leads by month: Sep 5, Oct 26.</div></td>
               </tr>
               <tr>
                 <td><div class="nm"><span class="bd" style="background:var(--s4)"></span>Paid Search</div></td>
-                <td class="r"><span class="big">23</span></td>
+                <td class="r"><span class="big">26</span></td>
                 <td class="r"><span class="big">2</span></td>
-                <td><div class="sub">13% of leads on 9% of spend ($290). 30 clicks from 59 impressions; 76.7% of clicks became leads.</div></td>
+                <td><div class="sub">12% of leads, $363 spend. 2 quoted, 0 X-dated, 3 contacted. Leads by month: Sep 7, Oct 19.</div></td>
               </tr>
               <tr>
                 <td><div class="nm"><span class="bd" style="background:var(--s5)"></span>Internal SEO 2</div></td>
-                <td class="r"><span class="big">17</span></td>
-                <td class="r"><span class="big">0</span></td>
-                <td><div class="sub">9% of leads on 9% of spend ($275). 22 clicks from 45 impressions; 77.3% of clicks became leads.</div></td>
+                <td class="r"><span class="big">21</span></td>
+                <td class="r"><span class="big">1</span></td>
+                <td><div class="sub">9% of leads, $377 spend. 0 quoted, 1 X-dated, 1 contacted. Leads by month: Sep 6, Oct 15.</div></td>
               </tr>
               <tr>
                 <td><div class="nm"><span class="bd" style="background:var(--s6)"></span>Email</div></td>
-                <td class="r"><span class="big">17</span></td>
+                <td class="r"><span class="big">18</span></td>
                 <td class="r"><span class="big">1</span></td>
-                <td><div class="sub">9% of leads on 5% of spend ($167). 18 clicks from 32 impressions; 94.4% of clicks became leads.</div></td>
+                <td><div class="sub">8% of leads, $183 spend. 3 quoted, 0 X-dated, 4 contacted. Leads by month: Sep 2, Oct 16.</div></td>
               </tr>
               <tr>
                 <td><div class="nm"><span class="bd" style="background:var(--s7)"></span>Other</div></td>
-                <td class="r"><span class="big">13</span></td>
-                <td class="r"><span class="big">0</span></td>
-                <td><div class="sub">7% of leads on 7% of spend ($206). 7 smaller sources: Premium Paid Search 2 (6), Premium Paid Search 6 (3), Premium Email C (2), Premium Paid Search 5C (1), Premium Email (1), Native/Display/Social (0), Premium Referral 3 (0).</div></td>
+                <td class="r"><span class="big">18</span></td>
+                <td class="r"><span class="big">2</span></td>
+                <td><div class="sub">8% of leads, $301 spend. No quotes yet. 6 smaller sources: Premium Paid Search 2 (6), Premium Paid Search 6 (5), Premium Email C (3), Premium Email (2), Premium Paid Search 4 (1), Premium Paid Search 5C (1).</div></td>
               </tr>
             </tbody>
           </table>
-          <div class="sub" style="max-width:none;margin-top:14px">Leads by month: September 16 to 30: 87; October 1 to 15: 93.</div>
+          <div class="sub" style="max-width:none;margin-top:14px">Leads, spend and inbound calls are GOAL source totals for Sep 16 through Oct 28, 2026. Quoted, X-dated and contacted by source are GOAL's events, which match your status files. Native/Display/Social had $59 of spend from 3 clicks and no lead.</div>
         </div>
       </div>
     </section>
 
     <section class="block" id="s3">
-      <div class="bhead"><span class="ix">03</span><div><h2>Conversion Funnel</h2><p>Since launch, Sep 16 through Oct 15, 2026</p></div></div>
+      <div class="bhead"><span class="ix">03</span><div><h2>Conversion Funnel</h2><p>Since launch, Sep 16 through Oct 28, 2026</p></div></div>
       <div class="fpanel">
-        <div class="fstep"><div class="lab">Your ad shown<small>impressions</small></div><div class="fbar"><i class="pre" data-w="100">723</i></div><div class="pct"><b>100%</b></div></div>
-        <div class="fstep"><div class="lab">Clicks<small>to your page</small></div><div class="fbar"><i class="pre" data-w="84">227</i></div><div class="pct"><b>31.4%</b><span>of impressions</span></div></div>
+        <div class="fstep"><div class="lab">Your ad shown<small>impressions</small></div><div class="fbar"><i class="pre" data-w="100">1,176</i></div><div class="pct"><b>100%</b></div></div>
+        <div class="fstep"><div class="lab">Clicks<small>to your page</small></div><div class="fbar"><i class="pre" data-w="84">290</i></div><div class="pct"><b>24.7%</b><span>of impressions</span></div></div>
         <div class="fdiv">Conversion funnel &middot; rates based on Leads</div>
-        <div class="fstep"><div class="lab">Leads<small>submitted</small></div><div class="fbar"><i class="cv" data-w="78">180</i></div><div class="pct"><b>79.3%</b><span>of clicks</span></div></div>
-        <div class="fstep"><div class="lab">Contacted<small>reached by agency</small></div><div class="fbar"><i class="cv" data-w="64">&ndash;</i></div><div class="pct"><b>&ndash;</b><span>tracking added Oct 15</span></div></div>
-        <div class="fstep"><div class="lab">Quotes<small>recorded in GOAL</small></div><div class="fbar"><i class="cv" data-w="52">2</i></div><div class="pct"><b>1.1%</b><span>of leads</span></div></div>
-        <div class="fstep"><div class="lab">Sales<small>policies sold</small></div><div class="fbar"><i class="cv end" data-w="28">&ndash;</i></div><div class="pct"><b>&ndash;</b><span>none recorded yet</span></div></div>
-        <div class="fnote">So far, <b>31.4%</b> of impressions became clicks and <b>79.3%</b> of clicks became leads (180 of 227). 2 of 180 leads have a Quoted event recorded in GOAL (<b>1.1%</b>), while 7 of the 12 prospects who called in were quoted on the phone alone, so quotes are only partly recorded so far. No sales are recorded yet, so CPA is not available. The Contacted event was added on Oct 15, so contact rate is not measurable yet.</div>
+        <div class="fstep"><div class="lab">Leads<small>submitted</small></div><div class="fbar"><i class="cv" data-w="78">223</i></div><div class="pct"><b>76.9%</b><span>of clicks</span></div></div>
+        <div class="fstep"><div class="lab">Contacted<small>reached</small></div><div class="fbar"><i class="cv" data-w="60">31</i></div><div class="pct"><b>13.9%</b><span>of leads</span></div></div>
+        <div class="fstep"><div class="lab">Quoted<small>quote presented</small></div><div class="fbar"><i class="cv" data-w="46">14</i></div><div class="pct"><b>6.3%</b><span>of leads</span></div></div>
+        <div class="fstep"><div class="lab">X-dated<small>renewal date set</small></div><div class="fbar"><i class="cv" data-w="40">9</i></div><div class="pct"><b>4.0%</b><span>of leads</span></div></div>
+        <div class="fstep"><div class="lab">Sales<small>none reported yet</small></div><div class="fbar"><i class="cv end" data-w="20">0</i></div><div class="pct"><b>0</b><span>reported</span></div></div>
+        <div class="fnote">GOAL delivered <b>223</b> leads from 290 clicks (76.9%). Your status files show <b>31</b> contacted, <b>14</b> quoted (6.3% of leads) and <b>9</b> X-dated. On the 176 leads that arrived before Oct 15, the period the files cover, the quote rate is 8.0%. 80 leads are at Attempting Contact in the Oct 15 file. No sales have been reported yet. The Sep 23 status file listed 5 sold rows, but none of them matches a lead GOAL delivered, and GOAL's Sold event has not recorded a sale. Cost per quote <b>$295</b> ($4,132.49 &divide; 14).</div>
       </div>
+      <div class="panel tscroll" style="margin-top:16px">
+          <div class="pt">By month the lead arrived</div>
+          <table class="ltable atable mtable">
+            <thead><tr><th>Month</th><th class="r">Leads</th><th class="r">Spend</th><th class="r">Contacted</th><th class="r">Quoted</th><th class="r">X-dated</th><th class="r">Quote rate</th><th class="r">Cost per quote</th></tr></thead>
+            <tbody>
+              <tr>
+                <td><div class="nm">Sep 16 to 30</div></td>
+                <td class="r"><span class="big">87</span></td>
+                <td class="r"><span class="cc">$1,472</span></td>
+                <td class="r"><span class="cc">13</span></td>
+                <td class="r"><span class="cc">5</span></td>
+                <td class="r"><span class="cc">5</span></td>
+                <td class="r"><span class="cc">5.7%</span></td>
+                <td class="r"><span class="cc">$294</span></td>
+              </tr>
+              <tr>
+                <td><div class="nm">Oct 1 to 28</div></td>
+                <td class="r"><span class="big">136</span></td>
+                <td class="r"><span class="cc">$2,661</span></td>
+                <td class="r"><span class="cc">18</span></td>
+                <td class="r"><span class="cc">9</span></td>
+                <td class="r"><span class="cc">4</span></td>
+                <td class="r"><span class="cc">6.6%</span></td>
+                <td class="r"><span class="cc">$296</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      <div class="anote">Leads and spend are GOAL monthly counts. Contacted, quoted and X-dated are counted in the month the lead arrived. 48 of the October leads arrived on or after Oct 15, after the latest status file, so October is still filling in.</div>
     </section>
 
     <section class="block" id="s4">
-      <div class="bhead"><span class="ix">04</span><div><h2>Lead Geography</h2><p>Where leads live and who insures them today</p></div></div>
-      <div style="display:grid;gap:16px">
+      <div class="bhead"><span class="ix">04</span><div><h2>Where Quotes and X-Dates Came From: Ad Channel and Traffic Tier</h2><p>Quoted and X-dated prospects by the ad channel (Aid) and traffic tier of the original lead &middot; Since launch, Sep 16 through Oct 28, 2026</p></div></div>
+      <div class="astack">
         <div class="panel tscroll">
-          <div class="pt">Top counties</div>
-          <table class="ltable">
-            <thead><tr><th>County</th><th class="r">Share</th><th class="r">Leads</th><th>Largest cities</th></tr></thead>
+          <div class="pt">Quotes and X-dates by ad channel (Aid)</div>
+          <table class="ltable atable">
+            <thead><tr><th>Ad channel &middot; traffic tier</th><th class="r">Leads</th><th class="r">Contacted</th><th class="r">Quoted</th><th class="r">X-dated</th></tr></thead>
             <tbody>
               <tr>
-                <td><div class="nm">Bexar</div></td>
-                <td class="r"><span class="big">13%</span></td><td class="r"><span class="big">24</span></td>
-                <td><div class="sub">San Antonio 22, Von Ormy 1</div></td>
+                <td><div class="nm"><span class="bd" style="background:var(--s1)"></span><span class="aidn">Aid 74</span></div><div class="sub ts">Internal SEO</div></td>
+                <td class="r"><span class="cc">30</span></td>
+                <td class="r"><span class="cc">9</span></td>
+                <td class="r"><span class="big">3</span></td>
+                <td class="r"><span class="cc">3</span></td>
               </tr>
               <tr>
-                <td><div class="nm">Dallas</div></td>
-                <td class="r"><span class="big">12%</span></td><td class="r"><span class="big">22</span></td>
-                <td><div class="sub">Dallas 7, Cedar Hill 5</div></td>
+                <td><div class="nm"><span class="bd" style="background:var(--s2)"></span><span class="aidn">Aid 113974</span></div><div class="sub ts">Premium Referral</div></td>
+                <td class="r"><span class="cc">38</span></td>
+                <td class="r"><span class="cc">5</span></td>
+                <td class="r"><span class="big">2</span></td>
+                <td class="r"><span class="cc">2</span></td>
               </tr>
               <tr>
-                <td><div class="nm">Tarrant</div></td>
-                <td class="r"><span class="big">8%</span></td><td class="r"><span class="big">15</span></td>
-                <td><div class="sub">Fort Worth 6, Arlington 2</div></td>
+                <td><div class="nm"><span class="bd" style="background:var(--s3)"></span><span class="aidn">Aid 2144</span></div><div class="sub ts">Email</div></td>
+                <td class="r"><span class="cc">10</span></td>
+                <td class="r"><span class="cc">3</span></td>
+                <td class="r"><span class="big">3</span></td>
+                <td class="r"><span class="cc">-</span></td>
               </tr>
               <tr>
-                <td><div class="nm">Lubbock</div></td>
-                <td class="r"><span class="big">5%</span></td><td class="r"><span class="big">9</span></td>
-                <td><div class="sub">Lubbock 6, Slaton 2</div></td>
+                <td><div class="nm"><span class="bd" style="background:var(--s4)"></span><span class="aidn">Aid 3460</span></div><div class="sub ts">Premium Referral</div></td>
+                <td class="r"><span class="cc">11</span></td>
+                <td class="r"><span class="cc">2</span></td>
+                <td class="r"><span class="big">1</span></td>
+                <td class="r"><span class="cc">1</span></td>
               </tr>
               <tr>
-                <td><div class="nm">McLennan</div></td>
-                <td class="r"><span class="big">4%</span></td><td class="r"><span class="big">7</span></td>
-                <td><div class="sub">Waco 5, Moody 1</div></td>
+                <td><div class="nm"><span class="bd" style="background:var(--s5)"></span><span class="aidn">Aid 116130</span></div><div class="sub ts">Native/Display/Social 2</div></td>
+                <td class="r"><span class="cc">26</span></td>
+                <td class="r"><span class="cc">2</span></td>
+                <td class="r"><span class="big">1</span></td>
+                <td class="r"><span class="cc">-</span></td>
               </tr>
               <tr>
-                <td><div class="nm">Travis</div></td>
-                <td class="r"><span class="big">4%</span></td><td class="r"><span class="big">7</span></td>
-                <td><div class="sub">Austin 6, Manor 1</div></td>
+                <td><div class="nm"><span class="bd" style="background:var(--s6)"></span><span class="aidn">Aid 2060</span></div><div class="sub ts">Paid Search</div></td>
+                <td class="r"><span class="cc">24</span></td>
+                <td class="r"><span class="cc">2</span></td>
+                <td class="r"><span class="big">1</span></td>
+                <td class="r"><span class="cc">-</span></td>
               </tr>
               <tr>
-                <td><div class="nm">All other counties</div></td>
-                <td class="r"><span class="big">54%</span></td><td class="r"><span class="big">98</span></td>
-                <td><div class="sub">52 more Texas counties</div></td>
+                <td><div class="nm"><span class="bd" style="background:var(--s6)"></span><span class="aidn">Aid 116136</span></div><div class="sub ts">Paid Search</div></td>
+                <td class="r"><span class="cc">4</span></td>
+                <td class="r"><span class="cc">1</span></td>
+                <td class="r"><span class="big">1</span></td>
+                <td class="r"><span class="cc">-</span></td>
+              </tr>
+              <tr>
+                <td><div class="nm"><span class="bd" style="background:var(--s6)"></span><span class="aidn">Aid 113692</span></div><div class="sub ts">Not traced</div></td>
+                <td class="r"><span class="cc">3</span></td>
+                <td class="r"><span class="cc">1</span></td>
+                <td class="r"><span class="big">1</span></td>
+                <td class="r"><span class="cc">-</span></td>
+              </tr>
+              <tr>
+                <td><div class="nm"><span class="bd" style="background:var(--s6)"></span><span class="aidn">Aid 113771</span></div><div class="sub ts">Premium Referral</div></td>
+                <td class="r"><span class="cc">1</span></td>
+                <td class="r"><span class="cc">1</span></td>
+                <td class="r"><span class="big">1</span></td>
+                <td class="r"><span class="cc">-</span></td>
+              </tr>
+              <tr>
+                <td><div class="nm"><span class="bd" style="background:var(--s6)"></span><span class="aidn">Aid 122</span></div><div class="sub ts">Internal SEO 2</div></td>
+                <td class="r"><span class="cc">18</span></td>
+                <td class="r"><span class="cc">1</span></td>
+                <td class="r"><span class="big">-</span></td>
+                <td class="r"><span class="cc">1</span></td>
+              </tr>
+              <tr>
+                <td><div class="nm"><span class="bd" style="background:var(--s6)"></span><span class="aidn">Aid 112864</span></div><div class="sub ts">Premium Referral</div></td>
+                <td class="r"><span class="cc">7</span></td>
+                <td class="r"><span class="cc">1</span></td>
+                <td class="r"><span class="big">-</span></td>
+                <td class="r"><span class="cc">1</span></td>
+              </tr>
+              <tr>
+                <td><div class="nm"><span class="bd" style="background:var(--s6)"></span><span class="aidn">Aid 535</span></div><div class="sub ts">Premium Referral</div></td>
+                <td class="r"><span class="cc">4</span></td>
+                <td class="r"><span class="cc">1</span></td>
+                <td class="r"><span class="big">-</span></td>
+                <td class="r"><span class="cc">1</span></td>
+              </tr>
+              <tr>
+                <td><div class="nm"><span class="bd" style="background:var(--s7)"></span>All other channels</div><div class="sub ts">25 ad channels with no quote or X-date yet</div></td>
+                <td class="r"><span class="cc">48</span></td>
+                <td class="r"><span class="cc">2</span></td>
+                <td class="r"><span class="big">-</span></td>
+                <td class="r"><span class="cc">-</span></td>
+              </tr>
+              <tr class="tot">
+                <td><div class="nm">Total</div><div class="sub ts">37 ad channels</div></td>
+                <td class="r"><span class="cc">224</span></td>
+                <td class="r"><span class="cc">31</span></td>
+                <td class="r"><span class="big">14</span></td>
+                <td class="r"><span class="cc">9</span></td>
               </tr>
             </tbody>
           </table>
         </div>
         <div class="panel tscroll">
-          <div class="pt">Current carrier, as entered by the prospect</div>
-          <table class="ltable">
-            <thead><tr><th>Current carrier</th><th class="r">Leads</th><th class="r">Share</th></tr></thead>
+          <div class="pt">Quotes and X-dates by traffic tier</div>
+          <table class="ltable atable">
+            <thead><tr><th>Traffic tier</th><th class="r">Leads</th><th class="r">Contacted</th><th class="r">Quoted</th><th class="r">X-dated</th></tr></thead>
             <tbody>
               <tr>
-                <td><div class="nm">Progressive</div></td>
-                <td class="r"><span class="big">27</span></td>
-                <td class="r"><span class="big">15%</span></td>
-              </tr>
-              <tr>
-                <td><div class="nm">State Farm</div></td>
-                <td class="r"><span class="big">10</span></td>
-                <td class="r"><span class="big">5%</span></td>
-              </tr>
-              <tr>
-                <td><div class="nm">Farmers</div></td>
-                <td class="r"><span class="big">5</span></td>
-                <td class="r"><span class="big">3%</span></td>
-              </tr>
-              <tr>
-                <td><div class="nm">GEICO</div></td>
-                <td class="r"><span class="big">5</span></td>
-                <td class="r"><span class="big">3%</span></td>
-              </tr>
-              <tr>
-                <td><div class="nm">USAA</div></td>
+                <td><div class="nm"><span class="bd" style="background:var(--s1)"></span>Premium Referral</div><div class="sub ts">5 ad channels</div></td>
+                <td class="r"><span class="cc">-</span></td>
+                <td class="r"><span class="cc">-</span></td>
                 <td class="r"><span class="big">4</span></td>
-                <td class="r"><span class="big">2%</span></td>
+                <td class="r"><span class="cc">5</span></td>
               </tr>
               <tr>
-                <td><div class="nm">Other named carriers</div><div class="sub">Liberty Mutual 2</div></td>
+                <td><div class="nm"><span class="bd" style="background:var(--s2)"></span>Internal SEO</div><div class="sub ts">1 ad channel</div></td>
+                <td class="r"><span class="cc">-</span></td>
+                <td class="r"><span class="cc">-</span></td>
+                <td class="r"><span class="big">3</span></td>
+                <td class="r"><span class="cc">3</span></td>
+              </tr>
+              <tr>
+                <td><div class="nm"><span class="bd" style="background:var(--s3)"></span>Email</div><div class="sub ts">1 ad channel</div></td>
+                <td class="r"><span class="cc">-</span></td>
+                <td class="r"><span class="cc">-</span></td>
+                <td class="r"><span class="big">3</span></td>
+                <td class="r"><span class="cc">-</span></td>
+              </tr>
+              <tr>
+                <td><div class="nm"><span class="bd" style="background:var(--s4)"></span>Paid Search</div><div class="sub ts">2 ad channels</div></td>
+                <td class="r"><span class="cc">-</span></td>
+                <td class="r"><span class="cc">-</span></td>
                 <td class="r"><span class="big">2</span></td>
-                <td class="r"><span class="big">1%</span></td>
+                <td class="r"><span class="cc">-</span></td>
               </tr>
               <tr>
-                <td><div class="nm">Not given</div></td>
-                <td class="r"><span class="big">107</span></td>
-                <td class="r"><span class="big">59%</span></td>
+                <td><div class="nm"><span class="bd" style="background:var(--s5)"></span>Native/Display/Social 2</div><div class="sub ts">1 ad channel</div></td>
+                <td class="r"><span class="cc">-</span></td>
+                <td class="r"><span class="cc">-</span></td>
+                <td class="r"><span class="big">1</span></td>
+                <td class="r"><span class="cc">-</span></td>
               </tr>
               <tr>
-                <td><div class="nm">Other or not listed</div></td>
-                <td class="r"><span class="big">22</span></td>
-                <td class="r"><span class="big">12%</span></td>
+                <td><div class="nm"><span class="bd" style="background:var(--s6)"></span>Internal SEO 2</div><div class="sub ts">1 ad channel</div></td>
+                <td class="r"><span class="cc">-</span></td>
+                <td class="r"><span class="cc">-</span></td>
+                <td class="r"><span class="big">-</span></td>
+                <td class="r"><span class="cc">1</span></td>
+              </tr>
+              <tr class="tot">
+                <td><div class="nm">Total traced</div><div class="sub ts">6 traffic tiers</div></td>
+                <td class="r"><span class="cc">-</span></td>
+                <td class="r"><span class="cc">-</span></td>
+                <td class="r"><span class="big">13</span></td>
+                <td class="r"><span class="cc">9</span></td>
+              </tr>
+              <tr class="muted">
+                <td><div class="nm">Not traced</div><div class="sub ts">Not matched to its original ad channel</div></td>
+                <td class="r"><span class="cc">-</span></td>
+                <td class="r"><span class="cc">-</span></td>
+                <td class="r"><span class="big">1</span></td>
+                <td class="r"><span class="cc">-</span></td>
               </tr>
             </tbody>
           </table>
-          <div class="sub" style="max-width:none;margin-top:14px">From the 182 Auto prospect records in GOAL since launch, two more than the Auto lead count in the source stats above. Current carrier is the prospect's own answer on the quote form.</div>
         </div>
       </div>
+      <div class="anote"><b>22 of 23</b> Auto prospects who were quoted or X-dated were traced to the ad channel (Aid) and traffic tier of their original lead; 1 quoted Oct 14 lead could not be traced to its tier, and GOAL's Quoted event counts it under Premium Referral. Leads and contacted by ad channel come from the prospect records, so the tier view shows quotes and X-dates only. Traffic tier comes from the traced records; one ad channel can run in more than one tier. Spend by ad channel is not available, so this compares quotes, not cost. No sales have been reported yet. The Sep 23 status file listed 5 sold rows, but none of them matches a lead GOAL delivered, and GOAL's Sold event has not recorded a sale.</div>
+      <div class="gapcall"><p><b>Why there is no "fewest quotes" ranking.</b> On accounts with longer history, the ad channel view also ranks the channels with many leads and no sales. Here that ranking would mislead: the campaigns are six weeks old, no sales have been reported, and the 73 leads since Oct 15 have no status yet, so a channel with no quotes mostly reflects reporting timing, not how its leads did. Once a fresh export with Sold comes in, the ranking can be added. Nothing has been changed at the ad channel level.</p></div>
     </section>
 
     <section class="block" id="s5" style="margin-bottom:0;">
       <div class="bhead"><span class="ix">05</span><div><h2>Recommendations</h2><p>Next review period</p></div></div>
       <div class="plan">
-        <div class="pstep"><div class="num">1</div><div><div class="h">Record Quoted and Sold on Every Lead<span class="tag neutral">Agency</span></div><div class="b">Each time an Allstate quote is given, record the Quoted event in GOAL, and each time a policy is written, record Sold. If it is easier, send us a sales export from your agency system and we will upload it for you. With quotes and sales recorded, this report shows quote rate, CPA and sales by source, and bid decisions can rest on sales instead of lead counts.</div><div class="m"><b>Metric behind it:</b> 2 Auto quotes recorded in GOAL since launch, while 7 of the 12 Auto prospects who called in were quoted on the phone alone. No sales recorded on 180 Auto leads and $3,153 of spend, so CPA cannot be shown yet.</div></div></div>
-        <div class="pstep"><div class="num">2</div><div><div class="h">Hold Auto Bids, Including Premium Referral<span class="tag blue">GOAL</span></div><div class="b">Premium Referral brings in the largest share of Auto leads, half of Auto inbound calls, and both recorded Auto quotes. Its bid stays where it is, along with the other Auto sources, until more quotes and sales are recorded, and we review it again next period. Daily limits stay where they are.</div><div class="m"><b>Metric behind it:</b> Premium Referral: 55 of 180 Auto leads (31%) on 32% of Auto spend; 6 of 12 inbound calls; 2 of 2 recorded Auto quotes.</div></div></div>
-        <div class="pstep"><div class="num">3</div><div><div class="h">Log a Status on Every Prospect<span class="tag neutral">Agency</span></div><div class="b">As each lead is worked, set its status in the GOAL prospect list (contacted, quoted, sold, or not interested). Statuses show which sources are turning into conversations and quotes while quote and sale recording catches up.</div><div class="m"><b>Metric behind it:</b> 178 of the 182 Auto prospects in GOAL since launch have no status logged; the 4 with a status are marked Quoted with Contact.</div></div></div>
-        <div class="pstep"><div class="num">4</div><div><div class="h">Make Sure Voicemail Saves When Agents Are Busy<span class="tag neutral">Agency</span></div><div class="b">Call the office line while every agent is on the phone and leave a long test message, then check that it saves without the caller pressing a key. A saved message and a same-day call back keep the conversation going with a shopper who could not get through.</div><div class="m"><b>Metric behind it:</b> In the inbound call review, 1 of the 12 Auto prospects who called in reached voicemail while agents were busy, and the message did not save. 12 Auto inbound calls since launch.</div></div></div>
-        <div class="pstep"><div class="num">5</div><div><div class="h">Reach Every Lead Across 30 Days<span class="tag neutral">Agency</span></div><div class="b">Contact frequency by week, across phone, text, and email:</div>
-          <div class="cad"><div class="c"><div class="w">Week 1</div><div class="n">3+/day</div><div class="s">all channels</div></div><div class="c"><div class="w">Week 2</div><div class="n">2+/day</div><div class="s">all channels</div></div><div class="c"><div class="w">Weeks 3&ndash;4</div><div class="n">every 2&ndash;3 days</div><div class="s">all channels</div></div></div><div class="m"><b>Metric behind it:</b> 180 Auto leads since launch; 4 have a status logged so far.</div></div></div>
+        <div class="pstep"><div class="num">1</div><div><div class="h">Raise the Auto Bid on Email<span class="tag blue">GOAL</span></div><div class="b">About a 10% bid increase on Email, the Auto source with the lowest spend per quote so far. Daily limits stay where they are.</div><div class="m"><b>Metric behind it:</b> Email: 3 quoted from 18 leads on $183 ($61 per quote), against $295 per quote for Auto overall. 16 of its 18 leads arrived in October.</div></div></div>
+        <div class="pstep"><div class="num">2</div><div><div class="h">Hold Premium Referral, Internal SEO and Paid Search<span class="tag blue">GOAL</span></div><div class="b">Premium Referral, Internal SEO and Paid Search stay at their current settings until sales are reported. Between them they have 10 of the 14 Auto quotes. Daily limits stay where they are.</div><div class="m"><b>Metric behind it:</b> Premium Referral: 75 leads, $1,494, 5 quoted, 5 X-dated. Internal SEO: 31 leads, $959, 3 quoted, 3 X-dated. Paid Search: 26 leads, $363, 2 quoted.</div></div></div>
+        <div class="pstep"><div class="num">3</div><div><div class="h">Hold Native/Display/Social 2 for One More Period<span class="tag blue">GOAL</span></div><div class="b">Native/Display/Social 2 stays at its current setting for now. Most of its leads arrived in October, after or close to the Oct 15 status file, so we will review it again with the next export. Daily limits stay where they are.</div><div class="m"><b>Metric behind it:</b> Native/Display/Social 2: 34 leads (27 in October), $455, 1 quoted, 2 contacted.</div></div></div>
+        <div class="pstep"><div class="num">4</div><div><div class="h">Hold the Home Sources<span class="tag blue">GOAL</span></div><div class="b">Tier 1, Tier 3 and Tier 2 stay at their current settings. Tier 1 has most of the Home quotes and X-dates, and Home is on a smaller base of leads. Daily limits stay where they are.</div><div class="m"><b>Metric behind it:</b> Tier 1: 36 leads, $719, 2 quoted, 5 X-dated. Tier 3: 27 leads, $703, 1 quoted. Tier 2: 10 leads, $211, no quotes yet.</div></div></div>
+        <div class="pstep"><div class="num">5</div><div><div class="h">Send a Fresh Export With Sold, Premium and Assigned To<span class="tag neutral">Agency</span></div><div class="b">Please send an export from your agency system covering every lead since Sep 16, with Sold, Premium and an Assigned To (producer) column. That lets this report show sales, CPA and results by producer.</div><div class="m"><b>Metric behind it:</b> Latest status file: Oct 15. Two files so far (Sep 23, 325 rows; Oct 15, 135 rows), neither with a producer column. No sales have been reported yet. The Sep 23 status file listed 5 sold rows, but none of them matches a lead GOAL delivered, and GOAL's Sold event has not recorded a sale. One Oct 13 Auto lead has the status Sold - Multi Policy in GOAL, while the Oct 15 file lists it as Quoted; it is not counted as a sale until a status file confirms it.</div></div></div>
+        <div class="pstep"><div class="num">6</div><div><div class="h">Record Quoted and Sold in GOAL<span class="tag neutral">Agency</span></div><div class="b">Set Quoted, X-Date and Sold in GOAL on each lead as it happens. It keeps the funnel current between exports and covers the leads that arrived after Oct 15.</div><div class="m"><b>Metric behind it:</b> GOAL's events show 17 quoted, 14 X-dated and 42 contacted, all from the two status files. The 73 leads since Oct 15 have no status yet.</div></div></div>
+        <div class="pstep"><div class="num">7</div><div><div class="h">Follow Up on Open Quotes and X-Dates<span class="tag neutral">Agency</span></div><div class="b">Call back each quoted prospect, and set a reminder for each X-date ahead of the renewal. Prospects who said they are not interested are left off this list.</div><div class="m"><b>Metric behind it:</b> 17 quoted and 14 X-dated prospects (30 people), none sold yet. 106 leads are at Attempting Contact in the Oct 15 file.</div></div></div>
+        <div class="pstep"><div class="num">8</div><div><div class="h">Geography: For Discussion<span class="tag amber">For discussion</span></div><div class="b">We can look at where quotes are coming from together and decide whether any area should get more or less focus. No geo-targeting changes have been made.</div><div class="m"><b>Metric behind it:</b> Dallas-Fort Worth counties sent 87 leads with 8 quotes and 5 X-dates; San Antonio area 45 leads with 1 quote; Austin area 19 leads, no quotes yet. The Source and ZIP Quotes report has every county and ZIP.</div></div></div>
       </div>
     </section>
 
-    <div class="mfoot"><span>All conversion metrics calculated based on Leads, not Clicks.</span><span>GOAL &middot; Since launch, Sep 16 through Oct 15, 2026</span></div>
+    <div class="mfoot"><span>All conversion metrics calculated based on Leads, not Clicks.</span><span>GOAL &middot; Since launch, Sep 16 through Oct 28, 2026</span></div>
 
   </main>
 </div>
