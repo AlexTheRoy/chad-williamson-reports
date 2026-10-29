@@ -1,244 +1,244 @@
-zip,county,city,leads,auto_leads,home_leads,leads_sep,leads_oct,homeowners,contacted,quoted,x_dated,inbound_callers,inbound_calls,sold
-75252,Collin,Dallas,1,1,0,0,1,0,1,1,0,0,0,1
-75224,Dallas,Dallas,1,0,1,1,0,1,1,1,1,0,0,0
-75426,Red River,Clarksville,2,2,0,2,0,1,1,1,0,1,1,0
-75758,Henderson,Chandler,2,2,0,2,0,1,1,1,0,1,1,0
-76120,Tarrant,Fort Worth,2,2,0,0,2,0,1,1,0,0,0,0
-79936,El Paso,El Paso,2,1,1,1,1,1,1,1,0,0,0,0
-75070,Collin,Mckinney,1,1,0,1,0,0,1,1,0,0,0,0
-75119,Ellis,Ennis,1,0,1,1,0,1,1,1,0,1,1,0
-75770,Henderson,Larue,1,1,0,0,1,1,1,1,0,0,0,0
-75773,Wood,Mineola,1,1,0,0,1,0,1,1,0,0,0,0
-76011,Tarrant,Arlington,1,1,0,0,1,0,1,1,0,0,0,0
-76040,Tarrant,Euless,1,1,0,1,0,0,1,1,0,0,0,0
-76053,Tarrant,Hurst,1,1,0,0,1,0,1,1,0,1,1,0
-76209,Denton,Denton,1,1,0,0,1,0,1,1,0,0,0,0
-76354,Wichita,Burkburnett,1,1,0,0,1,0,1,1,0,1,2,0
-76522,Coryell,Copperas Cove,1,0,1,0,1,1,1,1,0,0,0,0
-76903,Tom Green,San Angelo,1,1,0,0,1,1,1,1,0,0,0,0
-78223,Bexar,San Antonio,1,1,0,1,0,1,1,1,0,0,0,0
-79512,Mitchell,Colorado City,1,1,0,0,1,1,1,1,0,1,1,0
-79562,Taylor,Tuscola,1,1,0,0,1,0,1,1,0,0,0,0
-75052,Dallas,Grand Prairie,3,3,0,2,1,1,1,0,1,0,0,0
-75215,Dallas,Dallas,2,2,0,1,1,0,1,0,1,0,0,0
-76117,Tarrant,Haltom City,2,2,0,1,1,1,1,0,1,1,1,0
-76308,Wichita,Wichita Falls,2,1,1,0,2,1,1,0,1,1,1,0
-78233,Bexar,San Antonio,2,1,1,1,1,1,1,0,1,0,0,0
-78852,Maverick,Eagle Pass,2,2,0,0,2,2,1,0,1,0,0,0
-75180,Dallas,Balch Springs,1,1,0,0,1,1,1,0,1,0,0,0
-75451,Camp,Leesburg,1,1,0,1,0,1,1,0,1,0,0,0
-76123,Tarrant,Fort Worth,1,1,0,0,1,1,1,0,1,0,0,0
-76901,Tom Green,San Angelo,1,1,0,0,1,1,1,0,1,1,1,0
-77515,Brazoria,Angleton,1,0,1,1,0,1,1,0,1,0,0,0
-78227,Bexar,San Antonio,1,1,0,0,1,1,1,0,1,0,0,0
-78229,Bexar,San Antonio,1,1,0,0,1,0,1,0,1,0,0,0
-78611,Burnet,Burnet,1,1,0,1,0,0,1,0,1,1,1,0
-78639,Llano,Kingsland,1,1,0,1,0,1,1,0,1,1,1,0
-79423,Lubbock,Lubbock,1,1,0,1,0,1,1,0,1,0,0,0
-79932,El Paso,El Paso,1,0,1,1,0,1,1,0,1,0,0,0
-75104,Dallas,Cedar Hill,5,5,0,1,4,1,0,0,0,0,0,0
-76542,Bell,Killeen,4,4,0,1,3,1,1,0,0,0,0,0
-79403,Lubbock,Lubbock,4,3,1,0,4,2,0,0,0,0,0,0
-75146,Dallas,Lancaster,3,2,1,0,3,1,1,0,0,0,0,0
-75656,Cass,Hughes Springs,3,2,1,2,1,1,0,0,0,0,0,0
-78415,Nueces,Corpus Christi,3,1,2,0,3,3,0,0,0,0,0,0
-79907,El Paso,El Paso,3,3,0,2,1,2,0,0,0,0,0,0
-75040,Dallas,Garland,2,1,1,2,0,1,0,0,0,0,0,0
-75044,Dallas,Garland,2,1,1,0,2,2,0,0,0,0,0,0
-75068,Denton,Little Elm,2,2,0,1,1,0,0,0,0,0,0,0
-75212,Dallas,Dallas,2,1,1,0,2,1,0,0,0,1,1,0
-75571,Morris,Omaha,2,1,1,1,1,2,0,0,0,0,0,0
-75791,Smith,Whitehouse,2,1,1,0,2,2,0,0,0,0,0,0
-75860,Freestone,Teague,2,1,1,0,2,1,1,0,0,0,0,0
-75901,Angelina,Lufkin,2,2,0,0,2,1,0,0,0,0,0,0
-76063,Tarrant,Mansfield,2,2,0,2,0,0,0,0,0,0,0,0
-76112,Tarrant,Fort Worth,2,1,1,1,1,1,0,0,0,0,0,0
-76527,Williamson,Florence,2,2,0,1,1,1,0,0,0,0,0,0
-76541,Bell,Killeen,2,1,1,2,0,1,1,0,0,0,0,0
-76708,McLennan,Waco,2,2,0,0,2,0,0,0,0,0,0,0
-78132,Comal,New Braunfels,2,2,0,2,0,1,0,0,0,0,0,0
-78211,Bexar,San Antonio,2,2,0,1,1,2,1,0,0,0,0,0
-78213,Bexar,San Antonio,2,1,1,0,2,2,0,0,0,0,0,0
-78216,Bexar,San Antonio,2,2,0,1,1,0,0,0,0,0,0,0
-78240,Bexar,San Antonio,2,2,0,0,2,0,0,0,0,0,0,0
-78245,Bexar,San Antonio,2,2,0,1,1,2,0,0,0,1,1,0
-78628,Williamson,Georgetown,2,2,0,2,0,0,0,0,0,0,0,0
-78753,Travis,Austin,2,2,0,0,2,0,0,0,0,0,0,0
-79036,Hutchinson,Fritch,2,0,2,0,2,2,1,0,0,0,0,0
-79364,Lubbock,Slaton,2,2,0,0,2,0,0,0,0,0,0,0
-79603,Taylor,Abilene,2,1,1,1,1,1,0,0,0,0,0,0
-79605,Taylor,Abilene,2,2,0,2,0,1,0,0,0,0,0,0
-75006,Dallas,Carrollton,1,1,0,0,1,1,0,0,0,0,0,0
-75035,Collin,Frisco,1,1,0,1,0,1,0,0,0,0,0,0
-75042,Dallas,Garland,1,0,1,0,1,1,0,0,0,0,0,0
-75043,Dallas,Garland,1,1,0,1,0,0,0,0,0,0,0,0
-75077,Denton,Lewisville,1,0,1,1,0,1,0,0,0,0,0,0
-75081,Dallas,Richardson,1,1,0,1,0,0,0,0,0,0,0,0
-75089,Dallas,Rowlett,1,0,1,0,1,1,0,0,0,0,0,0
-75090,Grayson,Sherman,1,1,0,1,0,1,0,0,0,0,0,0
-75110,Navarro,Corsicana,1,0,1,0,1,1,0,0,0,0,0,0
-75116,Dallas,Duncanville,1,0,1,0,1,1,0,0,0,0,0,0
-75142,Kaufman,Kaufman,1,1,0,0,1,1,0,0,0,1,1,0
-75143,Kaufman,Tool,1,1,0,1,0,1,0,0,0,0,0,0
-75156,Henderson,Mabank,1,1,0,1,0,1,0,0,0,0,0,0
-75169,Van Zandt,Wills Point,1,0,1,0,1,1,0,0,0,0,0,0
-75181,Dallas,Mesquite,1,1,0,0,1,0,0,0,0,0,0,0
-75204,Dallas,Dallas,1,1,0,0,1,0,0,0,0,0,0,0
-75211,Dallas,Dallas,1,1,0,1,0,0,0,0,0,0,0,0
-75220,Dallas,Dallas,1,0,1,0,1,1,0,0,0,0,0,0
-75227,Dallas,Dallas,1,0,1,0,1,1,1,0,0,0,0,0
-75232,Dallas,Dallas,1,1,0,0,1,0,0,0,0,0,0,0
-75243,Dallas,Dallas,1,0,1,0,1,1,0,0,0,0,0,0
-75246,Dallas,Dallas,1,0,1,0,1,1,0,0,0,0,0,0
-75247,Dallas,Dallas,1,1,0,0,1,0,0,0,0,0,0,0
-75253,Dallas,Dallas,1,1,0,0,1,1,0,0,0,0,0,0
-75254,Dallas,Dallas,1,1,0,0,1,0,0,0,0,0,0,0
-75287,Collin,Dallas,1,0,1,0,1,1,0,0,0,0,0,0
-75401,Hunt,Greenville,1,1,0,0,1,1,0,0,0,0,0,0
-75411,Lamar,Arthur City,1,0,1,0,1,1,0,0,0,0,0,0
-75474,Hunt,Quinlan,1,1,0,1,0,0,0,0,0,0,0,0
-75491,Grayson,Whitewright,1,0,1,1,0,1,1,0,0,0,0,0
-75501,Bowie,Wake Village,1,0,1,0,1,1,0,0,0,0,0,0
-75559,Bowie,De Kalb,1,1,0,0,1,0,0,0,0,0,0,0
-75561,Bowie,Hooks,1,1,0,0,1,1,0,0,0,0,0,0
-75572,Cass,Queen City,1,1,0,1,0,0,0,0,0,0,0,0
-75602,Gregg,Longview,1,1,0,0,1,0,0,0,0,0,0,0
-75605,Gregg,Longview,1,1,0,1,0,1,0,0,0,0,0,0
-75631,Panola,Beckville,1,1,0,0,1,0,0,0,0,0,0,0
-75638,Morris,Daingerfield,1,1,0,0,1,1,0,0,0,0,0,0
-75647,Gregg,Gladewater,1,0,1,0,1,1,0,0,0,0,0,0
-75652,Rusk,Henderson,1,1,0,0,1,0,0,0,0,0,0,0
-75657,Marion,Jefferson,1,1,0,0,1,1,0,0,0,1,1,0
-75662,Gregg,Kilgore,1,1,0,0,1,1,0,0,0,0,0,0
-75702,Smith,Tyler,1,1,0,0,1,0,0,0,0,0,0,0
-75703,Smith,Tyler,1,1,0,1,0,0,0,0,0,0,0,0
-75706,Smith,Tyler,1,1,0,0,1,0,0,0,0,0,0,0
-75751,Henderson,Athens,1,1,0,0,1,1,1,0,0,0,0,0
-75771,Smith,Lindale,1,0,1,0,1,1,0,0,0,0,0,0
-75778,Henderson,Murchison,1,1,0,0,1,1,0,0,0,0,0,0
-75831,Leon,Buffalo,1,0,1,1,0,1,0,0,0,0,0,0
-75925,Cherokee,Alto,1,0,1,0,1,1,0,0,0,0,0,0
-75948,Sabine,Hemphill,1,0,1,1,0,1,1,0,0,0,0,0
-76006,Tarrant,Arlington,1,1,0,0,1,1,0,0,0,0,0,0
-76009,Johnson,Alvarado,1,1,0,0,1,1,0,0,0,0,0,0
-76012,Tarrant,Arlington,1,1,0,1,0,0,0,0,0,0,0,0
-76015,Tarrant,Arlington,1,0,1,0,1,1,0,0,0,0,0,0
-76018,Tarrant,Arlington,1,0,1,0,1,1,0,0,0,0,0,0
-76021,Tarrant,Bedford,1,1,0,0,1,0,0,0,0,0,0,0
-76028,Johnson,Burleson,1,0,1,1,0,1,0,0,0,0,0,0
-76033,Johnson,Cleburne,1,1,0,1,0,1,0,0,0,0,0,0
-76060,Tarrant,Kennedale,1,1,0,1,0,1,1,0,0,0,0,0
-76066,Parker,Millsap,1,1,0,0,1,1,0,0,0,0,0,0
-76082,Parker,Springtown,1,1,0,1,0,0,0,0,0,0,0,0
-76084,Johnson,Venus,1,1,0,1,0,0,0,0,0,0,0,0
-76085,Parker,Weatherford,1,1,0,0,1,1,0,0,0,0,0,0
-76086,Parker,Weatherford,1,1,0,1,0,1,0,0,0,0,0,0
-76109,Tarrant,Fort Worth,1,1,0,1,0,0,0,0,0,0,0,0
-76116,Tarrant,Fort Worth,1,1,0,0,1,0,0,0,0,0,0,0
-76135,Tarrant,Fort Worth,1,0,1,0,1,1,0,0,0,0,0,0
-76137,Tarrant,Haltom City,1,0,1,1,0,1,0,0,0,0,0,0
-76140,Tarrant,Fort Worth,1,0,1,0,1,1,0,0,0,1,1,0
-76179,Tarrant,Fort Worth,1,0,1,0,1,1,0,0,0,0,0,0
-76227,Denton,Aubrey,1,1,0,0,1,0,0,0,0,0,0,0
-76245,Grayson,Gordonville,1,0,1,0,1,1,0,0,0,0,0,0
-76248,Tarrant,Keller,1,1,0,0,1,1,0,0,0,0,0,0
-76262,Denton,Roanoke,1,0,1,0,1,1,0,0,0,0,0,0
-76266,Denton,Sanger,1,1,0,1,0,1,0,0,0,0,0,0
-76310,Wichita,Wichita Falls,1,1,0,1,0,1,0,0,0,0,0,0
-76357,Clay,Byers,1,1,0,0,1,1,0,0,0,0,0,0
-76384,Wilbarger,Vernon,1,1,0,1,0,1,0,0,0,0,0,0
-76430,Shackelford,Albany,1,1,0,0,1,0,0,0,0,0,0,0
-76513,Bell,Belton,1,1,0,0,1,0,0,0,0,0,0,0
-76543,Bell,Killeen,1,1,0,1,0,0,0,0,0,0,0,0
-76557,McLennan,Moody,1,1,0,1,0,0,0,0,0,0,0,0
-76643,McLennan,Hewitt,1,1,0,1,0,0,0,0,0,0,0,0
-76705,McLennan,Waco,1,1,0,0,1,0,0,0,0,0,0,0
-76706,McLennan,Waco,1,1,0,1,0,0,0,0,0,0,0,0
-76712,McLennan,Waco,1,1,0,0,1,0,0,0,0,0,0,0
-76849,Kimble,San Elizario,1,1,0,0,1,0,0,0,0,0,0,0
-76853,Lampasas,Lometa,1,1,0,0,1,1,0,0,0,0,0,0
-76861,Runnels,Miles,1,0,1,1,0,1,0,0,0,0,0,0
-76951,Sterling,Sterling City,1,1,0,0,1,0,0,0,0,0,0,0
-77017,Harris,Houston,1,1,0,0,1,1,0,0,0,0,0,0
-77064,Harris,Houston,1,0,1,0,1,1,1,0,0,0,0,0
-77090,Harris,Houston,1,1,0,0,1,1,0,0,0,0,0,0
-77396,Harris,Humble,1,0,1,0,1,1,0,0,0,0,0,0
-77514,Chambers,Anahuac,1,0,1,0,1,1,0,0,0,0,0,0
-77530,Harris,Channelview,1,1,0,0,1,1,0,0,0,0,0,0
-77536,Harris,Deer Park,1,1,0,0,1,1,0,0,0,0,0,0
-77612,Jasper,Buna,1,0,1,0,1,1,0,0,0,0,0,0
-77630,Orange,Orange,1,0,1,0,1,1,0,0,0,1,1,0
-77870,Robertson,New Baden,1,0,1,0,1,1,0,0,0,0,0,0
-78003,Bandera,Bandera,1,0,1,1,0,1,0,0,0,0,0,0
-78016,Medina,Devine,1,1,0,1,0,0,0,0,0,0,0,0
-78045,Webb,Laredo,1,1,0,0,1,1,0,0,0,0,0,0
-78046,Webb,Laredo,1,0,1,1,0,1,0,0,0,0,0,0
-78064,Atascosa,Pleasanton,1,1,0,0,1,1,1,0,0,0,0,0
-78073,Bexar,Von Ormy,1,1,0,0,1,0,0,0,0,0,0,0
-78121,Wilson,La Vernia,1,1,0,0,1,1,0,0,0,0,0,0
-78123,Guadalupe,Mc Queeney,1,1,0,0,1,0,0,0,0,0,0,0
-78130,Comal,New Braunfels,1,1,0,1,0,1,0,0,0,0,0,0
-78148,Bexar,Universal City,1,1,0,0,1,0,0,0,0,0,0,0
-78154,Guadalupe,Schertz,1,1,0,1,0,1,1,0,0,0,0,0
-78155,Guadalupe,Seguin,1,0,1,1,0,1,0,0,0,0,0,0
-78202,Bexar,San Antonio,1,1,0,1,0,0,0,0,0,0,0,0
-78212,Bexar,San Antonio,1,1,0,1,0,0,0,0,0,0,0,0
-78219,Bexar,San Antonio,1,1,0,1,0,0,0,0,0,1,1,0
-78220,Bexar,San Antonio,1,0,1,0,1,1,1,0,0,0,0,0
-78221,Bexar,San Antonio,1,1,0,1,0,0,0,0,0,0,0,0
-78222,Bexar,San Antonio,1,1,0,1,0,1,0,0,0,0,0,0
-78226,Bexar,San Antonio,1,1,0,0,1,0,0,0,0,0,0,0
-78230,Bexar,San Antonio,1,0,1,1,0,1,0,0,0,0,0,0
-78237,Bexar,San Antonio,1,1,0,0,1,0,0,0,0,0,0,0
-78238,Bexar,San Antonio,1,1,0,0,1,0,0,0,0,0,0,0
-78242,Bexar,San Antonio,1,1,0,0,1,0,0,0,0,0,0,0
-78244,Bexar,San Antonio,1,0,1,0,1,1,0,0,0,0,0,0
-78249,Bexar,San Antonio,1,1,0,1,0,0,0,0,0,0,0,0
-78250,Bexar,San Antonio,1,1,0,0,1,0,0,0,0,0,0,0
-78251,Bexar,San Antonio,1,1,0,0,1,0,0,0,0,0,0,0
-78253,Bexar,San Antonio,1,0,1,0,1,1,0,0,0,0,0,0
-78254,Bexar,San Antonio,1,1,0,1,0,0,0,0,0,0,0,0
-78586,Cameron,San Benito,1,1,0,0,1,1,1,0,0,0,0,0
-78615,Williamson,Coupland,1,1,0,1,0,0,0,0,0,0,0,0
-78621,Bastrop,Elgin,1,1,0,0,1,1,0,0,0,0,0,0
-78626,Williamson,Georgetown,1,1,0,0,1,0,0,0,0,0,0,0
-78633,Williamson,Georgetown,1,0,1,0,1,1,0,0,0,0,0,0
-78638,Guadalupe,Ashburn,1,1,0,1,0,1,0,0,0,0,0,0
-78641,Williamson,Leander,1,1,0,0,1,1,0,0,0,0,0,0
-78653,Travis,Manor,1,1,0,0,1,0,0,0,0,0,0,0
-78666,Hays,San Marcos,1,1,0,1,0,0,0,0,0,0,0,0
-78681,Williamson,Round Rock,1,1,0,1,0,0,0,0,0,0,0,0
-78702,Travis,Austin,1,1,0,1,0,0,0,0,0,0,0,0
-78745,Travis,Austin,1,1,0,0,1,0,0,0,0,0,0,0
-78757,Travis,Austin,1,1,0,0,1,0,0,0,0,1,2,0
-78758,Travis,Austin,1,1,0,0,1,1,1,0,0,0,0,0
-78957,Bastrop,Smithville,1,1,0,0,1,1,0,0,0,0,0,0
-79007,Hutchinson,Borger,1,0,1,1,0,1,0,0,0,0,0,0
-79070,Ochiltree,Perryton,1,1,0,0,1,1,0,0,0,0,0,0
-79104,Potter,Amarillo,1,1,0,0,1,1,0,0,0,0,0,0
-79107,Potter,Amarillo,1,1,0,1,0,0,0,0,0,0,0,0
-79108,Potter,Amarillo,1,1,0,1,0,0,0,0,0,0,0,0
-79109,Randall,Amarillo,1,1,0,1,0,1,0,0,0,0,0,0
-79110,Randall,Amarillo,1,1,0,1,0,0,0,0,0,0,0,0
-79124,Potter,Amarillo,1,1,0,1,0,0,0,0,0,0,0,0
-79235,Floyd,Floydada,1,1,0,1,0,1,0,0,0,0,0,0
-79313,Hockley,Anton,1,1,0,1,0,1,0,0,0,0,0,0
-79331,Dawson,Lamesa,1,1,0,0,1,0,0,0,0,0,0,0
-79339,Lamb,Littlefield,1,0,1,0,1,1,0,0,0,0,0,0
-79370,Dickens,Spur,1,1,0,0,1,1,0,0,0,0,0,0
-79373,Lynn,Tahoka,1,0,1,0,1,1,0,0,0,0,0,0
-79382,Lubbock,Wolfforth,1,1,0,0,1,0,0,0,0,0,0,0
-79401,Lubbock,Lubbock,1,1,0,1,0,1,0,0,0,0,0,0
-79407,Lubbock,Lubbock,1,1,0,0,1,0,0,0,0,0,0,0
-79414,Lubbock,Lubbock,1,1,0,0,1,0,0,0,0,0,0,0
-79536,Taylor,Merkel,1,1,0,1,0,0,0,0,0,0,0,0
-79549,Scurry,Snyder,1,1,0,0,1,0,0,0,0,0,0,0
-79752,Upton,Mc Camey,1,1,0,0,1,1,0,0,0,0,0,0
-79756,Ward,Monahans,1,1,0,0,1,0,0,0,0,0,0,0
-79761,Ector,Odessa,1,0,1,0,1,1,0,0,0,1,1,0
-79764,Ector,Odessa,1,1,0,1,0,0,0,0,0,0,0,0
-79915,El Paso,El Paso,1,1,0,0,1,0,0,0,0,0,0,0
-79924,El Paso,El Paso,1,1,0,1,0,0,0,0,0,0,0,0
-79925,El Paso,El Paso,1,0,1,0,1,1,0,0,0,0,0,0
-79928,El Paso,El Paso,1,1,0,0,1,1,0,0,0,0,0,0
-79935,El Paso,El Paso,1,1,0,0,1,1,0,0,0,0,0,0
+zip,county,city,leads,auto_leads,home_leads,leads_sep,leads_oct,homeowners,contacted,quoted,x_dated,inbound_callers,inbound_calls,sold,items,premium
+75252,Collin,Dallas,1,1,0,0,1,0,1,1,0,0,0,1,3,1837
+76179,Tarrant,Fort Worth,1,0,1,0,1,1,1,1,0,0,0,1,1,2990
+76522,Coryell,Copperas Cove,1,0,1,0,1,1,1,1,0,0,0,1,2,2907
+75224,Dallas,Dallas,1,0,1,1,0,1,1,1,1,0,0,0,0,0
+75426,Red River,Clarksville,2,2,0,2,0,1,1,1,0,1,1,0,0,0
+75758,Henderson,Chandler,2,2,0,2,0,1,1,1,0,1,1,0,0,0
+76120,Tarrant,Fort Worth,2,2,0,0,2,0,1,1,0,0,0,0,0,0
+79936,El Paso,El Paso,2,1,1,1,1,1,1,1,0,0,0,0,0,0
+75070,Collin,Mckinney,1,1,0,1,0,0,1,1,0,0,0,0,0,0
+75119,Ellis,Ennis,1,0,1,1,0,1,1,1,0,1,1,0,0,0
+75770,Henderson,Larue,1,1,0,0,1,1,1,1,0,0,0,0,0,0
+75773,Wood,Mineola,1,1,0,0,1,0,1,1,0,0,0,0,0,0
+76011,Tarrant,Arlington,1,1,0,0,1,0,1,1,0,0,0,0,0,0
+76040,Tarrant,Euless,1,1,0,1,0,0,1,1,0,0,0,0,0,0
+76053,Tarrant,Hurst,1,1,0,0,1,0,1,1,0,1,1,0,0,0
+76209,Denton,Denton,1,1,0,0,1,0,1,1,0,0,0,0,0,0
+76354,Wichita,Burkburnett,1,1,0,0,1,0,1,1,0,1,2,0,0,0
+76903,Tom Green,San Angelo,1,1,0,0,1,1,1,1,0,0,0,0,0,0
+78223,Bexar,San Antonio,1,1,0,1,0,1,1,1,0,0,0,0,0,0
+79512,Mitchell,Colorado City,1,1,0,0,1,1,1,1,0,1,1,0,0,0
+79562,Taylor,Tuscola,1,1,0,0,1,0,1,1,0,0,0,0,0,0
+75052,Dallas,Grand Prairie,3,3,0,2,1,1,1,0,1,0,0,0,0,0
+75215,Dallas,Dallas,2,2,0,1,1,0,1,0,1,0,0,0,0,0
+76117,Tarrant,Haltom City,2,2,0,1,1,1,1,0,1,1,1,0,0,0
+76308,Wichita,Wichita Falls,2,1,1,0,2,1,1,0,1,1,1,0,0,0
+78233,Bexar,San Antonio,2,1,1,1,1,1,1,0,1,0,0,0,0,0
+78852,Maverick,Eagle Pass,2,2,0,0,2,2,1,0,1,0,0,0,0,0
+75180,Dallas,Balch Springs,1,1,0,0,1,1,1,0,1,0,0,0,0,0
+75451,Camp,Leesburg,1,1,0,1,0,1,1,0,1,0,0,0,0,0
+76123,Tarrant,Fort Worth,1,1,0,0,1,1,1,0,1,0,0,0,0,0
+76901,Tom Green,San Angelo,1,1,0,0,1,1,1,0,1,1,1,0,0,0
+77515,Brazoria,Angleton,1,0,1,1,0,1,1,0,1,0,0,0,0,0
+78227,Bexar,San Antonio,1,1,0,0,1,1,1,0,1,0,0,0,0,0
+78229,Bexar,San Antonio,1,1,0,0,1,0,1,0,1,0,0,0,0,0
+78611,Burnet,Burnet,1,1,0,1,0,0,1,0,1,1,1,0,0,0
+78639,Llano,Kingsland,1,1,0,1,0,1,1,0,1,1,1,0,0,0
+79423,Lubbock,Lubbock,1,1,0,1,0,1,1,0,1,0,0,0,0,0
+79932,El Paso,El Paso,1,0,1,1,0,1,1,0,1,0,0,0,0,0
+75104,Dallas,Cedar Hill,5,5,0,1,4,1,0,0,0,0,0,0,0,0
+76542,Bell,Killeen,4,4,0,1,3,1,1,0,0,0,0,0,0,0
+79403,Lubbock,Lubbock,4,3,1,0,4,2,0,0,0,0,0,0,0,0
+75146,Dallas,Lancaster,3,2,1,0,3,1,1,0,0,0,0,0,0,0
+75656,Cass,Hughes Springs,3,2,1,2,1,1,0,0,0,0,0,0,0,0
+78415,Nueces,Corpus Christi,3,1,2,0,3,3,0,0,0,0,0,0,0,0
+79907,El Paso,El Paso,3,3,0,2,1,2,0,0,0,0,0,0,0,0
+75040,Dallas,Garland,2,1,1,2,0,1,0,0,0,0,0,0,0,0
+75044,Dallas,Garland,2,1,1,0,2,2,0,0,0,0,0,0,0,0
+75068,Denton,Little Elm,2,2,0,1,1,0,0,0,0,0,0,0,0,0
+75212,Dallas,Dallas,2,1,1,0,2,1,0,0,0,1,1,0,0,0
+75571,Morris,Omaha,2,1,1,1,1,2,0,0,0,0,0,0,0,0
+75791,Smith,Whitehouse,2,1,1,0,2,2,0,0,0,0,0,0,0,0
+75860,Freestone,Teague,2,1,1,0,2,1,1,0,0,0,0,0,0,0
+75901,Angelina,Lufkin,2,2,0,0,2,1,0,0,0,0,0,0,0,0
+76063,Tarrant,Mansfield,2,2,0,2,0,0,0,0,0,0,0,0,0,0
+76112,Tarrant,Fort Worth,2,1,1,1,1,1,0,0,0,0,0,0,0,0
+76527,Williamson,Florence,2,2,0,1,1,1,0,0,0,0,0,0,0,0
+76541,Bell,Killeen,2,1,1,2,0,1,1,0,0,0,0,0,0,0
+76708,McLennan,Waco,2,2,0,0,2,0,0,0,0,0,0,0,0,0
+78132,Comal,New Braunfels,2,2,0,2,0,1,0,0,0,0,0,0,0,0
+78211,Bexar,San Antonio,2,2,0,1,1,2,1,0,0,0,0,0,0,0
+78213,Bexar,San Antonio,2,1,1,0,2,2,0,0,0,0,0,0,0,0
+78216,Bexar,San Antonio,2,2,0,1,1,0,0,0,0,0,0,0,0,0
+78240,Bexar,San Antonio,2,2,0,0,2,0,0,0,0,0,0,0,0,0
+78245,Bexar,San Antonio,2,2,0,1,1,2,0,0,0,1,1,0,0,0
+78628,Williamson,Georgetown,2,2,0,2,0,0,0,0,0,0,0,0,0,0
+78753,Travis,Austin,2,2,0,0,2,0,0,0,0,0,0,0,0,0
+79036,Hutchinson,Fritch,2,0,2,0,2,2,1,0,0,0,0,0,0,0
+79364,Lubbock,Slaton,2,2,0,0,2,0,0,0,0,0,0,0,0,0
+79603,Taylor,Abilene,2,1,1,1,1,1,0,0,0,0,0,0,0,0
+79605,Taylor,Abilene,2,2,0,2,0,1,0,0,0,0,0,0,0,0
+75006,Dallas,Carrollton,1,1,0,0,1,1,0,0,0,0,0,0,0,0
+75035,Collin,Frisco,1,1,0,1,0,1,0,0,0,0,0,0,0,0
+75042,Dallas,Garland,1,0,1,0,1,1,0,0,0,0,0,0,0,0
+75043,Dallas,Garland,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+75077,Denton,Lewisville,1,0,1,1,0,1,0,0,0,0,0,0,0,0
+75081,Dallas,Richardson,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+75089,Dallas,Rowlett,1,0,1,0,1,1,0,0,0,0,0,0,0,0
+75090,Grayson,Sherman,1,1,0,1,0,1,0,0,0,0,0,0,0,0
+75110,Navarro,Corsicana,1,0,1,0,1,1,0,0,0,0,0,0,0,0
+75116,Dallas,Duncanville,1,0,1,0,1,1,0,0,0,0,0,0,0,0
+75142,Kaufman,Kaufman,1,1,0,0,1,1,0,0,0,1,1,0,0,0
+75143,Kaufman,Tool,1,1,0,1,0,1,0,0,0,0,0,0,0,0
+75156,Henderson,Mabank,1,1,0,1,0,1,0,0,0,0,0,0,0,0
+75169,Van Zandt,Wills Point,1,0,1,0,1,1,0,0,0,0,0,0,0,0
+75181,Dallas,Mesquite,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+75204,Dallas,Dallas,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+75211,Dallas,Dallas,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+75220,Dallas,Dallas,1,0,1,0,1,1,0,0,0,0,0,0,0,0
+75227,Dallas,Dallas,1,0,1,0,1,1,1,0,0,0,0,0,0,0
+75232,Dallas,Dallas,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+75243,Dallas,Dallas,1,0,1,0,1,1,0,0,0,0,0,0,0,0
+75246,Dallas,Dallas,1,0,1,0,1,1,0,0,0,0,0,0,0,0
+75247,Dallas,Dallas,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+75253,Dallas,Dallas,1,1,0,0,1,1,0,0,0,0,0,0,0,0
+75254,Dallas,Dallas,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+75287,Collin,Dallas,1,0,1,0,1,1,0,0,0,0,0,0,0,0
+75401,Hunt,Greenville,1,1,0,0,1,1,0,0,0,0,0,0,0,0
+75411,Lamar,Arthur City,1,0,1,0,1,1,0,0,0,0,0,0,0,0
+75474,Hunt,Quinlan,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+75491,Grayson,Whitewright,1,0,1,1,0,1,1,0,0,0,0,0,0,0
+75501,Bowie,Wake Village,1,0,1,0,1,1,0,0,0,0,0,0,0,0
+75559,Bowie,De Kalb,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+75561,Bowie,Hooks,1,1,0,0,1,1,0,0,0,0,0,0,0,0
+75572,Cass,Queen City,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+75602,Gregg,Longview,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+75605,Gregg,Longview,1,1,0,1,0,1,0,0,0,0,0,0,0,0
+75631,Panola,Beckville,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+75638,Morris,Daingerfield,1,1,0,0,1,1,0,0,0,0,0,0,0,0
+75647,Gregg,Gladewater,1,0,1,0,1,1,0,0,0,0,0,0,0,0
+75652,Rusk,Henderson,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+75657,Marion,Jefferson,1,1,0,0,1,1,0,0,0,1,1,0,0,0
+75662,Gregg,Kilgore,1,1,0,0,1,1,0,0,0,0,0,0,0,0
+75702,Smith,Tyler,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+75703,Smith,Tyler,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+75706,Smith,Tyler,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+75751,Henderson,Athens,1,1,0,0,1,1,1,0,0,0,0,0,0,0
+75771,Smith,Lindale,1,0,1,0,1,1,0,0,0,0,0,0,0,0
+75778,Henderson,Murchison,1,1,0,0,1,1,0,0,0,0,0,0,0,0
+75831,Leon,Buffalo,1,0,1,1,0,1,0,0,0,0,0,0,0,0
+75925,Cherokee,Alto,1,0,1,0,1,1,0,0,0,0,0,0,0,0
+75948,Sabine,Hemphill,1,0,1,1,0,1,1,0,0,0,0,0,0,0
+76006,Tarrant,Arlington,1,1,0,0,1,1,0,0,0,0,0,0,0,0
+76009,Johnson,Alvarado,1,1,0,0,1,1,0,0,0,0,0,0,0,0
+76012,Tarrant,Arlington,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+76015,Tarrant,Arlington,1,0,1,0,1,1,0,0,0,0,0,0,0,0
+76018,Tarrant,Arlington,1,0,1,0,1,1,0,0,0,0,0,0,0,0
+76021,Tarrant,Bedford,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+76028,Johnson,Burleson,1,0,1,1,0,1,0,0,0,0,0,0,0,0
+76033,Johnson,Cleburne,1,1,0,1,0,1,0,0,0,0,0,0,0,0
+76060,Tarrant,Kennedale,1,1,0,1,0,1,1,0,0,0,0,0,0,0
+76066,Parker,Millsap,1,1,0,0,1,1,0,0,0,0,0,0,0,0
+76082,Parker,Springtown,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+76084,Johnson,Venus,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+76085,Parker,Weatherford,1,1,0,0,1,1,0,0,0,0,0,0,0,0
+76086,Parker,Weatherford,1,1,0,1,0,1,0,0,0,0,0,0,0,0
+76109,Tarrant,Fort Worth,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+76116,Tarrant,Fort Worth,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+76135,Tarrant,Fort Worth,1,0,1,0,1,1,0,0,0,0,0,0,0,0
+76137,Tarrant,Haltom City,1,0,1,1,0,1,0,0,0,0,0,0,0,0
+76140,Tarrant,Fort Worth,1,0,1,0,1,1,0,0,0,1,1,0,0,0
+76227,Denton,Aubrey,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+76245,Grayson,Gordonville,1,0,1,0,1,1,0,0,0,0,0,0,0,0
+76248,Tarrant,Keller,1,1,0,0,1,1,0,0,0,0,0,0,0,0
+76262,Denton,Roanoke,1,0,1,0,1,1,0,0,0,0,0,0,0,0
+76266,Denton,Sanger,1,1,0,1,0,1,0,0,0,0,0,0,0,0
+76310,Wichita,Wichita Falls,1,1,0,1,0,1,0,0,0,0,0,0,0,0
+76357,Clay,Byers,1,1,0,0,1,1,0,0,0,0,0,0,0,0
+76384,Wilbarger,Vernon,1,1,0,1,0,1,0,0,0,0,0,0,0,0
+76430,Shackelford,Albany,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+76513,Bell,Belton,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+76543,Bell,Killeen,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+76557,McLennan,Moody,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+76643,McLennan,Hewitt,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+76705,McLennan,Waco,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+76706,McLennan,Waco,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+76712,McLennan,Waco,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+76849,Kimble,San Elizario,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+76853,Lampasas,Lometa,1,1,0,0,1,1,0,0,0,0,0,0,0,0
+76861,Runnels,Miles,1,0,1,1,0,1,0,0,0,0,0,0,0,0
+76951,Sterling,Sterling City,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+77017,Harris,Houston,1,1,0,0,1,1,0,0,0,0,0,0,0,0
+77064,Harris,Houston,1,0,1,0,1,1,1,0,0,0,0,0,0,0
+77090,Harris,Houston,1,1,0,0,1,1,0,0,0,0,0,0,0,0
+77396,Harris,Humble,1,0,1,0,1,1,0,0,0,0,0,0,0,0
+77514,Chambers,Anahuac,1,0,1,0,1,1,0,0,0,0,0,0,0,0
+77530,Harris,Channelview,1,1,0,0,1,1,0,0,0,0,0,0,0,0
+77536,Harris,Deer Park,1,1,0,0,1,1,0,0,0,0,0,0,0,0
+77612,Jasper,Buna,1,0,1,0,1,1,0,0,0,0,0,0,0,0
+77630,Orange,Orange,1,0,1,0,1,1,0,0,0,1,1,0,0,0
+77870,Robertson,New Baden,1,0,1,0,1,1,0,0,0,0,0,0,0,0
+78003,Bandera,Bandera,1,0,1,1,0,1,0,0,0,0,0,0,0,0
+78016,Medina,Devine,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+78045,Webb,Laredo,1,1,0,0,1,1,0,0,0,0,0,0,0,0
+78046,Webb,Laredo,1,0,1,1,0,1,0,0,0,0,0,0,0,0
+78064,Atascosa,Pleasanton,1,1,0,0,1,1,1,0,0,0,0,0,0,0
+78073,Bexar,Von Ormy,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+78121,Wilson,La Vernia,1,1,0,0,1,1,0,0,0,0,0,0,0,0
+78123,Guadalupe,Mc Queeney,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+78130,Comal,New Braunfels,1,1,0,1,0,1,0,0,0,0,0,0,0,0
+78148,Bexar,Universal City,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+78154,Guadalupe,Schertz,1,1,0,1,0,1,1,0,0,0,0,0,0,0
+78155,Guadalupe,Seguin,1,0,1,1,0,1,0,0,0,0,0,0,0,0
+78202,Bexar,San Antonio,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+78212,Bexar,San Antonio,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+78219,Bexar,San Antonio,1,1,0,1,0,0,0,0,0,1,1,0,0,0
+78220,Bexar,San Antonio,1,0,1,0,1,1,1,0,0,0,0,0,0,0
+78221,Bexar,San Antonio,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+78222,Bexar,San Antonio,1,1,0,1,0,1,0,0,0,0,0,0,0,0
+78226,Bexar,San Antonio,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+78230,Bexar,San Antonio,1,0,1,1,0,1,0,0,0,0,0,0,0,0
+78237,Bexar,San Antonio,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+78238,Bexar,San Antonio,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+78242,Bexar,San Antonio,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+78244,Bexar,San Antonio,1,0,1,0,1,1,0,0,0,0,0,0,0,0
+78249,Bexar,San Antonio,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+78250,Bexar,San Antonio,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+78251,Bexar,San Antonio,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+78253,Bexar,San Antonio,1,0,1,0,1,1,0,0,0,0,0,0,0,0
+78254,Bexar,San Antonio,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+78586,Cameron,San Benito,1,1,0,0,1,1,1,0,0,0,0,0,0,0
+78615,Williamson,Coupland,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+78621,Bastrop,Elgin,1,1,0,0,1,1,0,0,0,0,0,0,0,0
+78626,Williamson,Georgetown,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+78633,Williamson,Georgetown,1,0,1,0,1,1,0,0,0,0,0,0,0,0
+78638,Guadalupe,Ashburn,1,1,0,1,0,1,0,0,0,0,0,0,0,0
+78641,Williamson,Leander,1,1,0,0,1,1,0,0,0,0,0,0,0,0
+78653,Travis,Manor,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+78666,Hays,San Marcos,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+78681,Williamson,Round Rock,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+78702,Travis,Austin,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+78745,Travis,Austin,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+78757,Travis,Austin,1,1,0,0,1,0,0,0,0,1,2,0,0,0
+78758,Travis,Austin,1,1,0,0,1,1,1,0,0,0,0,0,0,0
+78957,Bastrop,Smithville,1,1,0,0,1,1,0,0,0,0,0,0,0,0
+79007,Hutchinson,Borger,1,0,1,1,0,1,0,0,0,0,0,0,0,0
+79070,Ochiltree,Perryton,1,1,0,0,1,1,0,0,0,0,0,0,0,0
+79104,Potter,Amarillo,1,1,0,0,1,1,0,0,0,0,0,0,0,0
+79107,Potter,Amarillo,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+79108,Potter,Amarillo,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+79109,Randall,Amarillo,1,1,0,1,0,1,0,0,0,0,0,0,0,0
+79110,Randall,Amarillo,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+79124,Potter,Amarillo,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+79235,Floyd,Floydada,1,1,0,1,0,1,0,0,0,0,0,0,0,0
+79313,Hockley,Anton,1,1,0,1,0,1,0,0,0,0,0,0,0,0
+79331,Dawson,Lamesa,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+79339,Lamb,Littlefield,1,0,1,0,1,1,0,0,0,0,0,0,0,0
+79370,Dickens,Spur,1,1,0,0,1,1,0,0,0,0,0,0,0,0
+79373,Lynn,Tahoka,1,0,1,0,1,1,0,0,0,0,0,0,0,0
+79382,Lubbock,Wolfforth,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+79401,Lubbock,Lubbock,1,1,0,1,0,1,0,0,0,0,0,0,0,0
+79407,Lubbock,Lubbock,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+79414,Lubbock,Lubbock,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+79536,Taylor,Merkel,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+79549,Scurry,Snyder,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+79752,Upton,Mc Camey,1,1,0,0,1,1,0,0,0,0,0,0,0,0
+79756,Ward,Monahans,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+79761,Ector,Odessa,1,0,1,0,1,1,0,0,0,1,1,0,0,0
+79764,Ector,Odessa,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+79915,El Paso,El Paso,1,1,0,0,1,0,0,0,0,0,0,0,0,0
+79924,El Paso,El Paso,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+79925,El Paso,El Paso,1,0,1,0,1,1,0,0,0,0,0,0,0,0
+79928,El Paso,El Paso,1,1,0,0,1,1,0,0,0,0,0,0,0,0
+79935,El Paso,El Paso,1,1,0,0,1,1,0,0,0,0,0,0,0,0
