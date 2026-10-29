@@ -1,36 +1,43 @@
 zip,county,city,leads,auto_leads,home_leads,leads_sep,leads_oct,homeowners,contacted,quoted,x_dated,inbound_callers,inbound_calls,sold
+75252,Collin,Dallas,1,1,0,0,1,0,1,1,0,0,0,1
 75224,Dallas,Dallas,1,0,1,1,0,1,1,1,1,0,0,0
 75426,Red River,Clarksville,2,2,0,2,0,1,1,1,0,1,1,0
 75758,Henderson,Chandler,2,2,0,2,0,1,1,1,0,1,1,0
+76120,Tarrant,Fort Worth,2,2,0,0,2,0,1,1,0,0,0,0
 79936,El Paso,El Paso,2,1,1,1,1,1,1,1,0,0,0,0
 75070,Collin,Mckinney,1,1,0,1,0,0,1,1,0,0,0,0
 75119,Ellis,Ennis,1,0,1,1,0,1,1,1,0,1,1,0
-75252,Collin,Dallas,1,1,0,0,1,0,1,1,0,0,0,0
 75770,Henderson,Larue,1,1,0,0,1,1,1,1,0,0,0,0
 75773,Wood,Mineola,1,1,0,0,1,0,1,1,0,0,0,0
 76011,Tarrant,Arlington,1,1,0,0,1,0,1,1,0,0,0,0
 76040,Tarrant,Euless,1,1,0,1,0,0,1,1,0,0,0,0
 76053,Tarrant,Hurst,1,1,0,0,1,0,1,1,0,1,1,0
 76209,Denton,Denton,1,1,0,0,1,0,1,1,0,0,0,0
+76354,Wichita,Burkburnett,1,1,0,0,1,0,1,1,0,1,2,0
 76522,Coryell,Copperas Cove,1,0,1,0,1,1,1,1,0,0,0,0
 76903,Tom Green,San Angelo,1,1,0,0,1,1,1,1,0,0,0,0
 78223,Bexar,San Antonio,1,1,0,1,0,1,1,1,0,0,0,0
 79512,Mitchell,Colorado City,1,1,0,0,1,1,1,1,0,1,1,0
+79562,Taylor,Tuscola,1,1,0,0,1,0,1,1,0,0,0,0
 75052,Dallas,Grand Prairie,3,3,0,2,1,1,1,0,1,0,0,0
 75215,Dallas,Dallas,2,2,0,1,1,0,1,0,1,0,0,0
 76117,Tarrant,Haltom City,2,2,0,1,1,1,1,0,1,1,1,0
 76308,Wichita,Wichita Falls,2,1,1,0,2,1,1,0,1,1,1,0
 78233,Bexar,San Antonio,2,1,1,1,1,1,1,0,1,0,0,0
 78852,Maverick,Eagle Pass,2,2,0,0,2,2,1,0,1,0,0,0
+75180,Dallas,Balch Springs,1,1,0,0,1,1,1,0,1,0,0,0
 75451,Camp,Leesburg,1,1,0,1,0,1,1,0,1,0,0,0
 76123,Tarrant,Fort Worth,1,1,0,0,1,1,1,0,1,0,0,0
 76901,Tom Green,San Angelo,1,1,0,0,1,1,1,0,1,1,1,0
 77515,Brazoria,Angleton,1,0,1,1,0,1,1,0,1,0,0,0
+78227,Bexar,San Antonio,1,1,0,0,1,1,1,0,1,0,0,0
 78229,Bexar,San Antonio,1,1,0,0,1,0,1,0,1,0,0,0
+78611,Burnet,Burnet,1,1,0,1,0,0,1,0,1,1,1,0
 78639,Llano,Kingsland,1,1,0,1,0,1,1,0,1,1,1,0
+79423,Lubbock,Lubbock,1,1,0,1,0,1,1,0,1,0,0,0
 79932,El Paso,El Paso,1,0,1,1,0,1,1,0,1,0,0,0
 75104,Dallas,Cedar Hill,5,5,0,1,4,1,0,0,0,0,0,0
-76542,Bell,Killeen,4,4,0,1,3,1,0,0,0,0,0,0
+76542,Bell,Killeen,4,4,0,1,3,1,1,0,0,0,0,0
 79403,Lubbock,Lubbock,4,3,1,0,4,2,0,0,0,0,0,0
 75146,Dallas,Lancaster,3,2,1,0,3,1,1,0,0,0,0,0
 75656,Cass,Hughes Springs,3,2,1,2,1,1,0,0,0,0,0,0
@@ -42,11 +49,10 @@ zip,county,city,leads,auto_leads,home_leads,leads_sep,leads_oct,homeowners,conta
 75212,Dallas,Dallas,2,1,1,0,2,1,0,0,0,1,1,0
 75571,Morris,Omaha,2,1,1,1,1,2,0,0,0,0,0,0
 75791,Smith,Whitehouse,2,1,1,0,2,2,0,0,0,0,0,0
-75860,Freestone,Teague,2,1,1,0,2,1,0,0,0,0,0,0
+75860,Freestone,Teague,2,1,1,0,2,1,1,0,0,0,0,0
 75901,Angelina,Lufkin,2,2,0,0,2,1,0,0,0,0,0,0
 76063,Tarrant,Mansfield,2,2,0,2,0,0,0,0,0,0,0,0
 76112,Tarrant,Fort Worth,2,1,1,1,1,1,0,0,0,0,0,0
-76120,Tarrant,Fort Worth,2,2,0,0,2,0,0,0,0,0,0,0
 76527,Williamson,Florence,2,2,0,1,1,1,0,0,0,0,0,0
 76541,Bell,Killeen,2,1,1,2,0,1,1,0,0,0,0,0
 76708,McLennan,Waco,2,2,0,0,2,0,0,0,0,0,0,0
@@ -58,7 +64,7 @@ zip,county,city,leads,auto_leads,home_leads,leads_sep,leads_oct,homeowners,conta
 78245,Bexar,San Antonio,2,2,0,1,1,2,0,0,0,1,1,0
 78628,Williamson,Georgetown,2,2,0,2,0,0,0,0,0,0,0,0
 78753,Travis,Austin,2,2,0,0,2,0,0,0,0,0,0,0
-79036,Hutchinson,Fritch,2,0,2,0,2,2,0,0,0,0,0,0
+79036,Hutchinson,Fritch,2,0,2,0,2,2,1,0,0,0,0,0
 79364,Lubbock,Slaton,2,2,0,0,2,0,0,0,0,0,0,0
 79603,Taylor,Abilene,2,1,1,1,1,1,0,0,0,0,0,0
 79605,Taylor,Abilene,2,2,0,2,0,1,0,0,0,0,0,0
@@ -76,7 +82,6 @@ zip,county,city,leads,auto_leads,home_leads,leads_sep,leads_oct,homeowners,conta
 75143,Kaufman,Tool,1,1,0,1,0,1,0,0,0,0,0,0
 75156,Henderson,Mabank,1,1,0,1,0,1,0,0,0,0,0,0
 75169,Van Zandt,Wills Point,1,0,1,0,1,1,0,0,0,0,0,0
-75180,Dallas,Balch Springs,1,1,0,0,1,1,0,0,0,0,0,0
 75181,Dallas,Mesquite,1,1,0,0,1,0,0,0,0,0,0,0
 75204,Dallas,Dallas,1,1,0,0,1,0,0,0,0,0,0,0
 75211,Dallas,Dallas,1,1,0,1,0,0,0,0,0,0,0,0
@@ -140,7 +145,6 @@ zip,county,city,leads,auto_leads,home_leads,leads_sep,leads_oct,homeowners,conta
 76262,Denton,Roanoke,1,0,1,0,1,1,0,0,0,0,0,0
 76266,Denton,Sanger,1,1,0,1,0,1,0,0,0,0,0,0
 76310,Wichita,Wichita Falls,1,1,0,1,0,1,0,0,0,0,0,0
-76354,Wichita,Burkburnett,1,1,0,0,1,0,0,0,0,1,2,0
 76357,Clay,Byers,1,1,0,0,1,1,0,0,0,0,0,0
 76384,Wilbarger,Vernon,1,1,0,1,0,1,0,0,0,0,0,0
 76430,Shackelford,Albany,1,1,0,0,1,0,0,0,0,0,0,0
@@ -156,7 +160,7 @@ zip,county,city,leads,auto_leads,home_leads,leads_sep,leads_oct,homeowners,conta
 76861,Runnels,Miles,1,0,1,1,0,1,0,0,0,0,0,0
 76951,Sterling,Sterling City,1,1,0,0,1,0,0,0,0,0,0,0
 77017,Harris,Houston,1,1,0,0,1,1,0,0,0,0,0,0
-77064,Harris,Houston,1,0,1,0,1,1,0,0,0,0,0,0
+77064,Harris,Houston,1,0,1,0,1,1,1,0,0,0,0,0
 77090,Harris,Houston,1,1,0,0,1,1,0,0,0,0,0,0
 77396,Harris,Humble,1,0,1,0,1,1,0,0,0,0,0,0
 77514,Chambers,Anahuac,1,0,1,0,1,1,0,0,0,0,0,0
@@ -180,11 +184,10 @@ zip,county,city,leads,auto_leads,home_leads,leads_sep,leads_oct,homeowners,conta
 78202,Bexar,San Antonio,1,1,0,1,0,0,0,0,0,0,0,0
 78212,Bexar,San Antonio,1,1,0,1,0,0,0,0,0,0,0,0
 78219,Bexar,San Antonio,1,1,0,1,0,0,0,0,0,1,1,0
-78220,Bexar,San Antonio,1,0,1,0,1,1,0,0,0,0,0,0
+78220,Bexar,San Antonio,1,0,1,0,1,1,1,0,0,0,0,0
 78221,Bexar,San Antonio,1,1,0,1,0,0,0,0,0,0,0,0
 78222,Bexar,San Antonio,1,1,0,1,0,1,0,0,0,0,0,0
 78226,Bexar,San Antonio,1,1,0,0,1,0,0,0,0,0,0,0
-78227,Bexar,San Antonio,1,1,0,0,1,1,0,0,0,0,0,0
 78230,Bexar,San Antonio,1,0,1,1,0,1,0,0,0,0,0,0
 78237,Bexar,San Antonio,1,1,0,0,1,0,0,0,0,0,0,0
 78238,Bexar,San Antonio,1,1,0,0,1,0,0,0,0,0,0,0
@@ -195,8 +198,7 @@ zip,county,city,leads,auto_leads,home_leads,leads_sep,leads_oct,homeowners,conta
 78251,Bexar,San Antonio,1,1,0,0,1,0,0,0,0,0,0,0
 78253,Bexar,San Antonio,1,0,1,0,1,1,0,0,0,0,0,0
 78254,Bexar,San Antonio,1,1,0,1,0,0,0,0,0,0,0,0
-78586,Cameron,San Benito,1,1,0,0,1,1,0,0,0,0,0,0
-78611,Burnet,Burnet,1,1,0,1,0,0,0,0,0,1,1,0
+78586,Cameron,San Benito,1,1,0,0,1,1,1,0,0,0,0,0
 78615,Williamson,Coupland,1,1,0,1,0,0,0,0,0,0,0,0
 78621,Bastrop,Elgin,1,1,0,0,1,1,0,0,0,0,0,0
 78626,Williamson,Georgetown,1,1,0,0,1,0,0,0,0,0,0,0
@@ -229,10 +231,8 @@ zip,county,city,leads,auto_leads,home_leads,leads_sep,leads_oct,homeowners,conta
 79401,Lubbock,Lubbock,1,1,0,1,0,1,0,0,0,0,0,0
 79407,Lubbock,Lubbock,1,1,0,0,1,0,0,0,0,0,0,0
 79414,Lubbock,Lubbock,1,1,0,0,1,0,0,0,0,0,0,0
-79423,Lubbock,Lubbock,1,1,0,1,0,1,1,0,0,0,0,0
 79536,Taylor,Merkel,1,1,0,1,0,0,0,0,0,0,0,0
 79549,Scurry,Snyder,1,1,0,0,1,0,0,0,0,0,0,0
-79562,Taylor,Tuscola,1,1,0,0,1,0,0,0,0,0,0,0
 79752,Upton,Mc Camey,1,1,0,0,1,1,0,0,0,0,0,0
 79756,Ward,Monahans,1,1,0,0,1,0,0,0,0,0,0,0
 79761,Ector,Odessa,1,0,1,0,1,1,0,0,0,1,1,0
