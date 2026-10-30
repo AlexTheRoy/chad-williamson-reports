@@ -2,6 +2,7 @@ zip,county,city,leads,auto_leads,home_leads,leads_sep,leads_oct,homeowners,conta
 75252,Collin,Dallas,1,1,0,0,1,0,1,1,0,0,0,1,3,1837
 76179,Tarrant,Fort Worth,1,0,1,0,1,1,1,1,0,0,0,1,1,2990
 76522,Coryell,Copperas Cove,1,0,1,0,1,1,1,1,0,0,0,1,2,2907
+77396,Harris,Humble,3,2,1,0,3,2,2,2,0,0,0,0,0,0
 75224,Dallas,Dallas,1,0,1,1,0,1,1,1,1,0,0,0,0,0
 75426,Red River,Clarksville,2,2,0,2,0,1,1,1,0,1,1,0,0,0
 75758,Henderson,Chandler,2,2,0,2,0,1,1,1,0,1,1,0,0,0
@@ -52,6 +53,7 @@ zip,county,city,leads,auto_leads,home_leads,leads_sep,leads_oct,homeowners,conta
 75791,Smith,Whitehouse,2,1,1,0,2,2,0,0,0,0,0,0,0,0
 75860,Freestone,Teague,2,1,1,0,2,1,1,0,0,0,0,0,0,0
 75901,Angelina,Lufkin,2,2,0,0,2,1,0,0,0,0,0,0,0,0
+76018,Tarrant,Arlington,2,1,1,0,2,2,0,0,0,0,0,0,0,0
 76063,Tarrant,Mansfield,2,2,0,2,0,0,0,0,0,0,0,0,0,0
 76112,Tarrant,Fort Worth,2,1,1,1,1,1,0,0,0,0,0,0,0,0
 76527,Williamson,Florence,2,2,0,1,1,1,0,0,0,0,0,0,0,0
@@ -121,10 +123,10 @@ zip,county,city,leads,auto_leads,home_leads,leads_sep,leads_oct,homeowners,conta
 75925,Cherokee,Alto,1,0,1,0,1,1,0,0,0,0,0,0,0,0
 75948,Sabine,Hemphill,1,0,1,1,0,1,1,0,0,0,0,0,0,0
 76006,Tarrant,Arlington,1,1,0,0,1,1,0,0,0,0,0,0,0,0
+76008,Parker,Aledo,1,0,1,0,1,1,0,0,0,0,0,0,0,0
 76009,Johnson,Alvarado,1,1,0,0,1,1,0,0,0,0,0,0,0,0
 76012,Tarrant,Arlington,1,1,0,1,0,0,0,0,0,0,0,0,0,0
 76015,Tarrant,Arlington,1,0,1,0,1,1,0,0,0,0,0,0,0,0
-76018,Tarrant,Arlington,1,0,1,0,1,1,0,0,0,0,0,0,0,0
 76021,Tarrant,Bedford,1,1,0,0,1,0,0,0,0,0,0,0,0,0
 76028,Johnson,Burleson,1,0,1,1,0,1,0,0,0,0,0,0,0,0
 76033,Johnson,Cleburne,1,1,0,1,0,1,0,0,0,0,0,0,0,0
@@ -142,6 +144,7 @@ zip,county,city,leads,auto_leads,home_leads,leads_sep,leads_oct,homeowners,conta
 76227,Denton,Aubrey,1,1,0,0,1,0,0,0,0,0,0,0,0,0
 76245,Grayson,Gordonville,1,0,1,0,1,1,0,0,0,0,0,0,0,0
 76248,Tarrant,Keller,1,1,0,0,1,1,0,0,0,0,0,0,0,0
+76255,Montague,Nocona,1,1,0,0,1,1,0,0,0,0,0,0,0,0
 76262,Denton,Roanoke,1,0,1,0,1,1,0,0,0,0,0,0,0,0
 76266,Denton,Sanger,1,1,0,1,0,1,0,0,0,0,0,0,0,0
 76310,Wichita,Wichita Falls,1,1,0,1,0,1,0,0,0,0,0,0,0,0
@@ -150,6 +153,7 @@ zip,county,city,leads,auto_leads,home_leads,leads_sep,leads_oct,homeowners,conta
 76430,Shackelford,Albany,1,1,0,0,1,0,0,0,0,0,0,0,0,0
 76513,Bell,Belton,1,1,0,0,1,0,0,0,0,0,0,0,0,0
 76543,Bell,Killeen,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+76549,Bell,Killeen,1,1,0,0,1,1,1,0,0,0,0,0,0,0
 76557,McLennan,Moody,1,1,0,1,0,0,0,0,0,0,0,0,0,0
 76643,McLennan,Hewitt,1,1,0,1,0,0,0,0,0,0,0,0,0,0
 76705,McLennan,Waco,1,1,0,0,1,0,0,0,0,0,0,0,0,0
@@ -162,7 +166,6 @@ zip,county,city,leads,auto_leads,home_leads,leads_sep,leads_oct,homeowners,conta
 77017,Harris,Houston,1,1,0,0,1,1,0,0,0,0,0,0,0,0
 77064,Harris,Houston,1,0,1,0,1,1,1,0,0,0,0,0,0,0
 77090,Harris,Houston,1,1,0,0,1,1,0,0,0,0,0,0,0,0
-77396,Harris,Humble,1,0,1,0,1,1,0,0,0,0,0,0,0,0
 77514,Chambers,Anahuac,1,0,1,0,1,1,0,0,0,0,0,0,0,0
 77530,Harris,Channelview,1,1,0,0,1,1,0,0,0,0,0,0,0,0
 77536,Harris,Deer Park,1,1,0,0,1,1,0,0,0,0,0,0,0,0
@@ -174,6 +177,7 @@ zip,county,city,leads,auto_leads,home_leads,leads_sep,leads_oct,homeowners,conta
 78045,Webb,Laredo,1,1,0,0,1,1,0,0,0,0,0,0,0,0
 78046,Webb,Laredo,1,0,1,1,0,1,0,0,0,0,0,0,0,0
 78064,Atascosa,Pleasanton,1,1,0,0,1,1,1,0,0,0,0,0,0,0
+78069,Bexar,Somerset,1,1,0,0,1,1,0,0,0,0,0,0,0,0
 78073,Bexar,Von Ormy,1,1,0,0,1,0,0,0,0,0,0,0,0,0
 78121,Wilson,La Vernia,1,1,0,0,1,1,0,0,0,0,0,0,0,0
 78123,Guadalupe,Mc Queeney,1,1,0,0,1,0,0,0,0,0,0,0,0,0
@@ -182,6 +186,7 @@ zip,county,city,leads,auto_leads,home_leads,leads_sep,leads_oct,homeowners,conta
 78154,Guadalupe,Schertz,1,1,0,1,0,1,1,0,0,0,0,0,0,0
 78155,Guadalupe,Seguin,1,0,1,1,0,1,0,0,0,0,0,0,0,0
 78202,Bexar,San Antonio,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+78207,Bexar,San Antonio,1,1,0,0,1,1,1,0,0,0,0,0,0,0
 78212,Bexar,San Antonio,1,1,0,1,0,0,0,0,0,0,0,0,0,0
 78219,Bexar,San Antonio,1,1,0,1,0,0,0,0,0,1,1,0,0,0
 78220,Bexar,San Antonio,1,0,1,0,1,1,1,0,0,0,0,0,0,0
@@ -198,6 +203,7 @@ zip,county,city,leads,auto_leads,home_leads,leads_sep,leads_oct,homeowners,conta
 78251,Bexar,San Antonio,1,1,0,0,1,0,0,0,0,0,0,0,0,0
 78253,Bexar,San Antonio,1,0,1,0,1,1,0,0,0,0,0,0,0,0
 78254,Bexar,San Antonio,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+78412,Nueces,Corpus Christi,1,0,1,0,1,1,0,0,0,0,0,0,0,0
 78586,Cameron,San Benito,1,1,0,0,1,1,1,0,0,0,0,0,0,0
 78615,Williamson,Coupland,1,1,0,1,0,0,0,0,0,0,0,0,0,0
 78621,Bastrop,Elgin,1,1,0,0,1,1,0,0,0,0,0,0,0,0
@@ -214,6 +220,7 @@ zip,county,city,leads,auto_leads,home_leads,leads_sep,leads_oct,homeowners,conta
 78758,Travis,Austin,1,1,0,0,1,1,1,0,0,0,0,0,0,0
 78957,Bastrop,Smithville,1,1,0,0,1,1,0,0,0,0,0,0,0,0
 79007,Hutchinson,Borger,1,0,1,1,0,1,0,0,0,0,0,0,0,0
+79045,Deaf Smith,Hereford,1,1,0,0,1,0,0,0,0,0,0,0,0,0
 79070,Ochiltree,Perryton,1,1,0,0,1,1,0,0,0,0,0,0,0,0
 79104,Potter,Amarillo,1,1,0,0,1,1,0,0,0,0,0,0,0,0
 79107,Potter,Amarillo,1,1,0,1,0,0,0,0,0,0,0,0,0,0
