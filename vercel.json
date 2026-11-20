@@ -2,20 +2,112 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "cleanUrls": true,
   "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/Chad-Williamson-Campaign-Overview-Since-Launch-11-06-26.html",
+      "destination": "/Chad-Williamson-Campaign-Overview-Since-Launch-11-20-26",
+      "permanent": false
+    },
+    {
+      "source": "/Chad-Williamson-Campaign-Overview-Since-Launch-11-06-26",
+      "destination": "/Chad-Williamson-Campaign-Overview-Since-Launch-11-20-26",
+      "permanent": false
+    },
+    {
+      "source": "/Chad-Williamson-Auto-Campaign-Performance-Since-Launch-11-06-26.html",
+      "destination": "/Chad-Williamson-Auto-Campaign-Performance-Since-Launch-11-20-26",
+      "permanent": false
+    },
+    {
+      "source": "/Chad-Williamson-Auto-Campaign-Performance-Since-Launch-11-06-26",
+      "destination": "/Chad-Williamson-Auto-Campaign-Performance-Since-Launch-11-20-26",
+      "permanent": false
+    },
+    {
+      "source": "/Chad-Williamson-Home-Campaign-Performance-Since-Launch-11-06-26.html",
+      "destination": "/Chad-Williamson-Home-Campaign-Performance-Since-Launch-11-20-26",
+      "permanent": false
+    },
+    {
+      "source": "/Chad-Williamson-Home-Campaign-Performance-Since-Launch-11-06-26",
+      "destination": "/Chad-Williamson-Home-Campaign-Performance-Since-Launch-11-20-26",
+      "permanent": false
+    },
+    {
+      "source": "/Chad-Williamson-Monthly-Sales-by-Source-11-06-26.html",
+      "destination": "/Chad-Williamson-Monthly-Sales-by-Source-11-20-26",
+      "permanent": false
+    },
+    {
+      "source": "/Chad-Williamson-Monthly-Sales-by-Source-11-06-26",
+      "destination": "/Chad-Williamson-Monthly-Sales-by-Source-11-20-26",
+      "permanent": false
+    },
+    {
+      "source": "/Chad-Williamson-Source-ZIP-Sales-11-06-26.html",
+      "destination": "/Chad-Williamson-Source-ZIP-Sales-11-20-26",
+      "permanent": false
+    },
+    {
+      "source": "/Chad-Williamson-Source-ZIP-Sales-11-06-26",
+      "destination": "/Chad-Williamson-Source-ZIP-Sales-11-20-26",
+      "permanent": false
+    },
+    {
+      "source": "/Chad-Williamson-Lead-to-Sale-Gap-Analysis-11-06-26.html",
+      "destination": "/Chad-Williamson-Lead-to-Sale-Gap-Analysis-11-20-26",
+      "permanent": false
+    },
+    {
+      "source": "/Chad-Williamson-Lead-to-Sale-Gap-Analysis-11-06-26",
+      "destination": "/Chad-Williamson-Lead-to-Sale-Gap-Analysis-11-20-26",
+      "permanent": false
+    },
+    {
+      "source": "/Chad-Williamson-Inbound-Call-Review-11-06-26.html",
+      "destination": "/Chad-Williamson-Inbound-Call-Review-11-20-26",
+      "permanent": false
+    },
+    {
+      "source": "/Chad-Williamson-Inbound-Call-Review-11-06-26",
+      "destination": "/Chad-Williamson-Inbound-Call-Review-11-20-26",
+      "permanent": false
+    },
+    {
+      "source": "/Chad-Williamson-ZIP-Sales-11-06-26.csv",
+      "destination": "/Chad-Williamson-ZIP-Sales-11-20-26.csv",
+      "permanent": false
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
-        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
-        { "key": "X-Robots-Tag", "value": "noindex, nofollow" }
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
       ]
     },
     {
       "source": "/",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
       ]
     }
   ]
